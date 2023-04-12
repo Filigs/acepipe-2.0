@@ -1,7 +1,7 @@
 import("tailwindcss").Config;
 
 module.exports = {
-  darkMode: ["class", '[data-mode="light"]'],
+  darkMode: false,
   content: [
     "./pages/**.{js,ts,jsx,tsx}",
     "./components/**.{js,ts,jsx,tsx}",
@@ -17,31 +17,52 @@ module.exports = {
   ],
   theme: {
     extend: {
-      keyframes: {
-        "rotate-gradient": {
-          "0%, 100%": {
-            "background-position": "0% 49%",
-          },
-          "50%": {
-            "background-position": "100% 52%",
-          },
+      colors: {
+        primary: {
+          DEFAULT: "#7d4810",
+          light: "#a76a33",
+          lighter: "#c18f5a",
+          dark: "#5c360b",
+          darker: "#3e2306",
+        },
+        secondary: {
+          DEFAULT: "#ffcc00",
+          light: "#ffdd33",
+          lighter: "#ffee66",
+          dark: "#e6b800",
+          darker: "#cc9d00",
+        },
+        background: {
+          lightest: "#f8f8f8",
+          light: "#eeeeee",
+          DEFAULT: "#e5e5e5",
+          dark: "#cccccc",
+          darkest: "#b3b3b3",
         },
       },
       animation: {
         "gradient-background": "rotate-gradient 30s ease infinite",
       },
+      backgroundColor: {
+        primary: "#7d4810", // brown
+        secondary: "#ffcc00", // amber
+      },
+      textColor: {
+        primary: "#7d4810", // brown
+        secondary: "#ffcc00", // amber
+      },
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
       colors: {
         // ? Color Palettes
-        primary: "#3b82f6", // blue-500
-        primaryHover: "#60a5fa", // blue-400
-        cta: "#fde047",
+
         // ? Light mode https://coolors.co/ffffff-f7f8fa-f3f4f6-10b981
-        lightest: "#FFFFFF",
-        lighter: "#F7F8FA",
-        light: "#F3F4F6",
-        medium: "#E5E7EB",
-        dark: "#374151",
-        darkest: "#1F2937",
+
+        primary: "#7d4810", // brown
+        primaryDark: "#522f0b", // darker brown
+
+        secondary: "#ffcc00", // amber
 
         // ! Color Palette
 
