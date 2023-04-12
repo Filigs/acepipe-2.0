@@ -1,0 +1,208 @@
+Crepe Frutas e Topping - fruit and Topping Crepe
+Panquecas de Frutas e Topping - fruit and topping Pancakes
+Café - Coffee
+Waffle Frutas e topping - fruit and topping Waffle
+Carrot Passion – Carrot Passion
+Pastel de Nata – Pastel de Nata (Portuguese custard tart)
+Bolos Variados - Assorted cakes
+Bolo à Fatia – Sliced Cake
+Meia Torrada - Half-toasted bread with butter
+Torrada - Toasted bread with butter
+Tosta Queijo ou Fiambre - Cheese or ham toast
+Tosta Queijo e Cebola - Cheese and onion toast
+Tosta Mista - Ham and Cheese toast
+Tosta de Frango - Chicken toast
+Tosta de Atum - Tuna toast
+Tosta de Presunto – Prosciutto Toast
+Pão com Manteiga - Bread with butter
+Sandes Queijo ou Fiambre - Cheese or ham sandwich
+Sandes Mista - Ham and cheese sandwich
+Sandes Presunto – Prosciutto sandwich
+Sandes Frango - Chicken sandwich
+Sandes Atum - Tuna sandwich
+Sandes de Chouriço - Chorizo sandwich
+Pequeno Almoço Inglês - English breakfast
+Pequeno Almoço Inglês Duplo - Double English breakfast
+Água sem Gás - Still water
+Água com Gás - Sparkling water
+Água com Gás (Sabor) - Flavored sparkling water
+Água Tónica - Tonic water
+Néctar - Nectar Juice
+Sumo de Ananás / Maçã - Pineapple/Apple juice
+Refrigerantes Lata – Soft Drinks
+Imperial - Draft beer 
+Shandy - Shandy
+Caneca – Beer Paint
+Caneca Shandy – Shandy Paint
+Cerveja Garrafa (0.33cl) - Beer bottle (0.33cl)
+Cerveja Garrafa (0% Álcool) - Non-alcoholic beer bottle
+Redbull - Energy drink
+Somersby - Cider
+Smirnoff Ice - Smirnoff Ice
+Sumo Natural de Fruta - Natural fruit juice
+Limonada - Lemonade
+Sumo de Laranja - Orange juice
+Sumo de Laranja com Álcool - Alcoholic orange juice
+Granizado Pequeno - Small slushy
+Granizado Grande - Large slushy
+Granizado Pequeno com Álcool - Small alcoholic slushy
+Granizado Grande com Álcool - Large alcoholic slushy
+Gin - Gin
+Gin Tónico - Gin Tonic
+Rum - Rum
+Redbull Vodka - Vodka Redbull
+Vodka - Vodka
+Whisky - Whiskey
+Triple Sec - Triple sec liqueur
+Vinho do Porto - Port wine
+Licores - Liqueurs
+Aguardente – Aguardente (Firewater)
+Brandy- Brandy
+Bacardi - Bacardi rum
+Tábua de Enchidos Pequena - Small charcuterie board
+Tábua de Queijos Pequena - Small cheese board
+Tábua Mista de Queijos e Enchidos Pequena - Small cheese and charcuterie board
+Tábua de Enchidos Grande - Large charcuterie board
+Tábua de Queijos Grande - Large cheese board
+Tábua Mista de Queijos e Enchidos Grande - Large cheese and charcuterie board
+Copo de Vinho - Wine glass
+Copo de Vinho Especial - Special wine glass
+Mateus Rosé - Mateus Rosé
+Foral de Portimão (Branco) – White Foral de Portimão
+Planalto (Branco, Seco) – Planalto (White and Dry)
+Casal Garcia (Verde) - Casal Garcia (Green Wine)
+1 Bola - 1 scoop (of ice cream)
+2 Bolas - 2 scoops (of ice cream)
+3 Bolas - 3 scoops (of ice cream)
+Banana Split - Banana split
+Caramel Sunset - Caramel sunset
+Taça de Frutas - Fruit bowl
+Taça Oreo - Oreo bowl
+Taça Kinder Bueno - Kinder Bueno bowl
+Construa a Sua Taça - Make your own bowl
+Crepe Açucar e Canela - Sugar and cinnamon crepe
+Crepe Nutella ou Topping - Nutella or topping crepe
+Crepe Nutella e Morangos - Nutella and strawberry crepe
+Crepe Mel e Nozes - Honey and nuts crepe
+Crepe Banana e Chocolate - Banana and chocolate crepe
+Crepe Oreo - Oreo crepe
+Crepe Suzette – Suzette Crepe
+Crepe Kinder Bueno - Kinder Bueno crepe
+Crepe Frutas e Topping - Fruit and topping crepe
+Crepe Acepipe - Acepipe crepe
+Panquecas Açucar e Canela - Sugar and cinnamon pancakes
+Panquecas Nutella ou Topping - Nutella or topping pancakes
+Panquecas Nutella e Morangos - Nutella and strawberry pancakes
+Panquecas Mel e Nozes - Honey and nuts pancakes
+Panquecas Banana e Chocolate - Banana and chocolate pancakes
+Panquecas Oreo - Oreo pancakes
+Panquecas Kinder Bueno - Kinder Bueno pancakes
+Panquecas de Frutas e Topping - Fruit and topping pancakes
+Panquecas Acepipe - Acepipe pancakes
+Panqueca Tower - Pancake tower
+Acepipe Mix (2 Pax) - Acepipe mix (for 2 Pax)
+Acepipe Special Summer (2 Pax) - Acepipe special summer (for 2 Pax)
+Acepipe Choco Mix (2 Pax) - Acepipe chocolate mix (for 2 Pax)
+Bubble Rainbow - Rainbow bubble waffle
+Bubble Kinder Bueno - Kinder Bueno bubble waffle
+Bubble Oreo - Oreo bubble waffle
+Bubble de Frutas e Gelado - Fruit and ice cream bubble waffle
+Bubble Acepipe - Acepipe bubble waffle
+Construa a Sua Bubble Waffle - Make your own bubble waffle
+Waffle Açucar e Canela - Sugar and cinnamon waffle
+Waffle Nutella ou Topping - Nutella or topping waffle
+Waffle Nutella e Morangos - Nutella and strawberry waffle
+Waffle Mel e Nozes - Honey and nuts waffle
+Waffle Banana e Chocolate - Banana and chocolate waffle
+Waffle Oreo - Oreo waffle
+Waffle Kinder Bueno - Kinder Bueno waffle
+Waffle Acepipe - Acepipe waffle
+Waffle Tower - Waffle tower
+Batido Baunilha - Vanilla milkshake
+Batido Chocolate - Chocolate milkshake
+Batido Morango e banana - Strawberry and banana milkshake
+Batido Oreo - Oreo milkshake
+Batido Nutella - Nutella milkshake
+Batido Kinder bueno - Kinder Bueno milkshake
+Batido Acepipe - Acepipe milkshake
+Expresso - Espresso
+Descafeinado - Decaf
+Carioca de Café - espresso cut with water 
+Carioca de Limão – lemon tea
+Café Pingado - Coffee with a drop of milk
+Café com Cheiro - Coffee with a hint of aguardente
+Café com Leite - Coffee with milk on the side
+Meia de Leite - Half coffee, half milk
+Capuccino - Cappuccino
+Chá - Tea
+Chá com Leite - Tea with milk
+Leite Ucal - Ucal milk
+Affogato - Espresso poured over a scoop of vanilla ice cream
+Topping Líquido - Liquid topping
+Coberturas - Toppings
+Compota - Jam
+Cone - Cone
+Copo (de gelado) – Cup ( paper cup)
+Prato - Plate
+Pão - Bread
+Sangria de Vinho Tinto - Red wine Sangria
+Sangria de Vinho Branco - White wine Sangria
+Loios (Tinto) - Loios (Red wine)
+Loios (Branco) - Loios (white wine)
+Meia Encosta (Tinto) - Meia Encosta (red wine)
+Meia Encosta (Branco) - Meia Encosta (white wine)
+Fruta - Fruit
+Utensílios Take Away - Take away utensils
+Brandy - Brandy
+Cointreau - Cointreau
+Amarguinha –  Amarguinha (Almond liqueur)
+Vinhas da Murça (Tinto) - Vinhas da Murça (red wine)
+Vinhas da Murça (Branco) - Vinhas da Murça (white wine)
+Vinhas da Murça (Rosé) - Vinhas da Murça (rosé wine)
+Fita Azul (Espumante Bruto) - Fita Azul (Sparkling wine brut)
+Chantilly - Whipped Cream
+Construa a Sua Waffle - Make your own waffle
+Construa as Suas Panquecas - Make your own pancakes
+Construa o Seu Crepe - Make your own crepe
+Salada de Frango - Chicken salad
+Salada de Atum - Tuna salad
+Waffle Frutas e Topping - Fruits and topping waffle
+Chouriço Assado - Roasted Chourizo
+Tropical Tango - Tropical Tango 
+Morning Glory - Morning Glory
+Ice Coffee - Ice coffee
+Mad Berries - Mad Berries
+Bacon Roll - Bacon roll
+Bacon e Ovo - Bacon and egg
+Bacon Queijo e Ovo - Bacon, cheese and egg
+Tropical Delight - Tropical Delight 
+Chocolate Quente com Marshmallows - Hot chocolate with marshmallows
+Croissant Simples - Plain croissant
+Croissant com Manteiga - Croissant with butter
+Croissant com Queijo - Croissant with cheese
+Croissant com Fiambre - Croissant with ham
+Croissant com Nutella - Croissant with Nutella
+Croissant Misto – Ham and Cheese croissant
+Croissant com Doce - Croissant with jam
+Croissant com Doce de Ovo - Croissant with egg spread
+Croissant com Nutella e Morangos - Croissant with Nutella and strawberries
+Baguete com Queijo – cheese baguette
+Baguete com Fiambre – ham Baguette
+Baguete Mista – Ham and Cheese baguette
+Baguete de Frango - Chicken baguette
+Baguete de Atum - Tuna baguette
+Baguete Presunto e Queijo - cheese and prosciutto baguette
+Clássico – Classic (Burguer)
+Bacon Burguer - Bacon Burger
+Burguer Bacon Queijo e Ovo - Burger with Bacon, Cheese, and Egg
+Black Angus Burguer - Black Angus Burger
+Bacon Black Angus Burguer - Bacon Black Angus Burger
+Black Angus Burguer Bacon Queijo e Ovo - Black Angus Burger with Bacon, Cheese, and Egg
+Café Turbinado – “Turbinado” Coffee (with coconut oil and cinnamon)
+Café Mocha - Mocha Coffee
+Abatanado - Americano
+Galão - Latte
+Café Duplo - Double Espresso
+Latte Caramel Machiatto - Latte Caramel Machiatto
+Latte Chocolate Machiatto - Latte Chocolate Machiatto
+Cappuccino com Chantilly - Cappuccino with Whipped Cream

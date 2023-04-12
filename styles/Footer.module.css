@@ -1,0 +1,11 @@
+.footer {
+  @apply bg-primary text-white py-6 mt-12;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.disclaimer {
+  @apply text-center text-sm;
+}

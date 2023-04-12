@@ -1,20 +1,21 @@
-// import Navbar from "./nav/navbar";
 import React from "react";
-// import { ViewportHook } from "./viewportHook";
-
-export default function Layout({ children }) {
-  // const isBreakpoint = ViewportHook(768);
+import Head from "next/head";
+import Footer from "./footer";
+const Layout = ({ children }) => {
   return (
-    <div id="outer-container">
-      <main
-        className="grid h-full grid-cols-1 mx-auto overflow-auto bg-transparent dark:bg-transparent lg:max-w-screen-xl"
-        id="page-wrap"
-      >
-        <div className="mx-3">
-          {/* {isBreakpoint ? <BurgerMenu /> : <></>} */}
-          {children}
-        </div>
-      </main>
-    </div>
+    <>
+      <Head>
+        <title>Acepipe Cafe</title>
+        <meta name="description" content="Acepipe Cafe Digital Menu" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-200">
+        <main>{children}</main>
+        <Footer />
+      </div>
+    </>
   );
-}
+};
+
+export default Layout;

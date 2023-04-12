@@ -57,7 +57,7 @@ class myDocument extends Document {
         </Head>
         {/* <!-- Google tag (gtag.js) --> */}
 
-        <body className="documentPatternMobile bg-cover lg:.documentPatternDesktop text-darkDarker bg-lighter dark:bg-darkDarker dark:text-light">
+        <body className="">
           <Main />
           <NextScript />
         </body>

@@ -40,10 +40,38 @@ module.exports = {
           darkest: "#b3b3b3",
         },
       },
-    },
-    fontFamily: {
-      sans: ["Roboto", "Helvetica", "Arial", "sans-serif"],
-      serif: ["Georgia", "Cambria", "Times New Roman", "serif"],
+      animation: {
+        "gradient-background": "rotate-gradient 30s ease infinite",
+      },
+      backgroundColor: {
+        primary: "#7d4810", // brown
+        secondary: "#ffcc00", // amber
+      },
+      textColor: {
+        primary: "#7d4810", // brown
+        secondary: "#ffcc00", // amber
+      },
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
+      colors: {
+        // ? Color Palettes
+
+        // ? Light mode https://coolors.co/ffffff-f7f8fa-f3f4f6-10b981
+
+        primary: "#7d4810", // brown
+        primaryDark: "#522f0b", // darker brown
+
+        secondary: "#ffcc00", // amber
+
+        // ! Color Palette
+
+        // ? background colors for booleans
+
+        success: "#16A34A", // green
+        danger: "#EF4444", // red
+        // ! Color Palettes
+      },
     },
     plugins: [require("@tailwindcss/forms")],
   },
