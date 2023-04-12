@@ -16,29 +16,29 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: {
-          DEFAULT: "#7d4810",
-          light: "#a76a33",
-          lighter: "#c18f5a",
-          dark: "#5c360b",
-          darker: "#3e2306",
-        },
-        secondary: {
-          DEFAULT: "#ffcc00",
-          light: "#ffdd33",
-          lighter: "#ffee66",
-          dark: "#e6b800",
-          darker: "#cc9d00",
-        },
-        background: {
-          lightest: "#f8f8f8",
-          light: "#eeeeee",
-          DEFAULT: "#e5e5e5",
-          dark: "#cccccc",
-          darkest: "#b3b3b3",
-        },
-      },
+      // colors: {
+      //   primary: {
+      //     DEFAULT: "#7d4810",
+      //     light: "#a76a33",
+      //     lighter: "#c18f5a",
+      //     dark: "#5c360b",
+      //     darker: "#3e2306",
+      //   },
+      //   secondary: {
+      //     DEFAULT: "#ffcc00",
+      //     light: "#ffdd33",
+      //     lighter: "#ffee66",
+      //     dark: "#e6b800",
+      //     darker: "#cc9d00",
+      //   },
+      //   background: {
+      //     lightest: "#f8f8f8",
+      //     light: "#eeeeee",
+      //     DEFAULT: "#e5e5e5",
+      //     dark: "#cccccc",
+      //     darkest: "#b3b3b3",
+      //   },
+      // },
       animation: {
         "gradient-background": "rotate-gradient 30s ease infinite",
       },
