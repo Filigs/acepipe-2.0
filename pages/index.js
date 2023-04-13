@@ -40,7 +40,7 @@ export default function Home() {
     "Crepes",
     "Panquecas",
     "Waffles",
-    "Bubble Waffle",
+    "Bubble Waffles",
     "Extras",
   ];
 
@@ -63,12 +63,12 @@ export default function Home() {
     "Cocktails",
     "Slushy",
     "Smoothies",
-    "Acepipe Especial",
+    "Acepipe Special",
     "Ice Cream Bowls",
     "Crepes",
     "Pancakes",
     "Waffles",
-    "Bubble Waffle",
+    "Bubble Waffles",
     "Extras",
   ];
 

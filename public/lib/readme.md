@@ -81,7 +81,7 @@ Taças de Gelado
 Crepes
 Panquecas
 Waffles
-Bubble Waffle
+Bubble Waffles
 Extras
 
 # Lista Preferencial EN:
@@ -104,10 +104,10 @@ Alcoholic Beverages
 Cocktails
 Slushy
 Smoothies
-Acepipe Especial
+Acepipe Special
 Ice Cream Bowls
 Crepes
 Pancakes
 Waffles
-Bubble Waffle
+Bubble Waffles
 Extras
