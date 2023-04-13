@@ -42,7 +42,8 @@ function CollapsibleCategoryCard({ title, language, products }) {
           <div className={styles.cardTitle}>{title}</div>
           <div>
             <button className={styles.cardButton} onClick={toggleOpen}>
-              Show More
+              {language === "pt" && "Mostrar mais"}
+              {language === "en" && "Show more"}
             </button>
           </div>
         </div>
