@@ -4,10 +4,18 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
+import { MdCloseFullscreen } from "react-icons/md";
+import normalizeSrcUrl from "@/utils/normalizeSrcUrl";
 
 function CollapsibleCategoryCard({ title, language, products }) {
+  const lowercasedTitle = normalizeSrcUrl(
+    title.toLowerCase().replace(/\s+/g, "-")
+  );
   const [isOpen, setIsOpen] = useState(false);
-  const cardImage = language === "pt" ? `/pt/${title}.jpg` : `/en/${title}.jpg`;
+  const cardImage =
+    language === "pt"
+      ? `/pt/${lowercasedTitle}.jpg`
+      : `/en/${lowercasedTitle}.jpg`;
 
   const toggleOpen = () => {
     setIsOpen(!isOpen);
@@ -34,10 +42,11 @@ function CollapsibleCategoryCard({ title, language, products }) {
       {isOpen && (
         <>
           <button
-            className={`${styles.categoryCardTitle} w-full text-center`}
+            className={`${styles.categoryCardTitle} w-full text-center flex justify-center`}
             onClick={toggleOpen}
           >
             {title}
+            <MdCloseFullscreen className="ml-4 " />
           </button>
           <motion.div
             className={styles.collapsibleContent}
