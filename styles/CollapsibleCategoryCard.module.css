@@ -1,0 +1,30 @@
+/* CollapsibleCategoryCard.module.css */
+.card {
+  @apply bg-white;
+  @apply rounded-lg;
+  @apply shadow-sm;
+  @apply m-2;
+  @apply overflow-hidden;
+}
+
+.cardTitle {
+  @apply bg-gray-100;
+  @apply p-4;
+  @apply flex;
+  @apply justify-between;
+  @apply items-center;
+}
+
+.cardTitleText {
+  @apply text-lg;
+  @apply font-semibold;
+  @apply m-0;
+}
+
+.closeIcon {
+  @apply text-xl;
+}
+
+.collapsibleContent {
+  @apply p-4;
+}

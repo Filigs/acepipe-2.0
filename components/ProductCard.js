@@ -35,7 +35,7 @@ const ProductCard = ({ name, ingredients, price }) => {
         </div>
       )}
       <div className={`${styles.productCardPrice} text-secondary`}>
-        {price}€
+        {price}0€
       </div>
     </div>
   );
