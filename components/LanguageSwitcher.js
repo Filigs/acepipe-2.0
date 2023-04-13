@@ -1,7 +1,9 @@
+// LanguageSwitcher.js
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import logo from "@/public/brand.png";
+import SocialLinks from "./socialLinks";
 
 const LanguageSwitcher = ({ setLanguage }) => {
   const [activeLanguage, setActiveLanguage] = useState("pt");
@@ -32,6 +34,7 @@ const LanguageSwitcher = ({ setLanguage }) => {
           EN
         </button>
       </div>
+      <SocialLinks />
     </div>
   );
 };

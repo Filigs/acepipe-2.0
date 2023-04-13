@@ -1,10 +1,11 @@
 /* Language Switcher */
 .languageSwitcher {
-  @apply flex justify-end mb-6;
+  @apply flex space-x-4 items-center justify-center sm:justify-end;
+  @apply mb-4 sm:mb-0;
 }
 
 .languageButton {
-  @apply p-2 text-xl border-2 rounded-md;
+  @apply px-4 py-2 mx-1 font-medium text-white border-2 border-transparent rounded-full cursor-pointer transition-all duration-200;
 }
 
 .languageButtonPrimary {
@@ -27,14 +28,15 @@
   @apply bg-opacity-100;
 }
 
-/* Logo */
+/* Logo Container */
 
 .logoContainer {
-  @apply flex items-center justify-between mb-6 bg-primary p-4 rounded-md;
+  @apply flex flex-col items-center justify-between mb-6 bg-primary p-4 rounded-md;
+  @apply sm:flex-row;
 }
 
 .logo {
-  @apply h-12 w-auto mr-4;
+  @apply h-20 w-auto mb-4 sm:mb-0 sm:mr-4; /* Update for responsiveness */
 }
 
 /* Cards */
@@ -82,16 +84,18 @@
   @apply object-cover;
 }
 
+/* Small Button */
 .cardButton {
   @apply flex items-center justify-center;
   @apply bg-white border border-primary;
   @apply text-primary;
   @apply font-bold;
-  @apply py-2;
-  @apply px-4;
-  @apply mb-2;
-  @apply rounded-xl;
-  @apply w-full;
+  @apply py-1;
+  @apply px-3;
+  @apply mb-6;
+  @apply mx-auto;
+  @apply rounded-full; /* Changed to rounded-full for a more modern look */
+  @apply w-2/3 sm:w-auto;
   @apply cursor-pointer;
   @apply transition-all duration-200 ease-in-out;
 }
@@ -103,7 +107,7 @@
 
 .cardTitle {
   @apply p-4;
-  @apply text-center;
+  @apply text-center text-xl text-primaryDark;
   @apply font-semibold;
 }
 
