@@ -28,25 +28,13 @@ class myDocument extends Document {
           <meta name="robots" content="all" />
           {/* social media url preview */}
           <meta property="og:url" content="https://www.acepipe.pt" />
-          <meta
-            property="og:title"
-            content="Web Developer - Nuno Filipe Martins"
-          />
-          <meta
-            property="og:description"
-            content="My portfolio as a Freelancer Web Developer"
-          />
+          <meta property="og:title" content="Acepipe - Albufeira" />
+          <meta property="og:description" content="Acepipe - Albufeira" />
 
-          <meta
-            property="og:site_name"
-            content="Nuno Filipe Martins - Freelancer Web Developer"
-          />
+          <meta property="og:site_name" content="Acepipe - Albufeira" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="https://www.acepipe.pt" />
-          <meta
-            name="twitter:creator"
-            content="Nuno Filipe Martins - Freelancer Web Developer"
-          />
+          <meta name="twitter:creator" content="Acepipe - Albufeira" />
         </Head>
         {/* <!-- Google tag (gtag.js) --> */}
 
