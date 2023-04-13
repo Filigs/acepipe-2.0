@@ -16,13 +16,74 @@ export default function Home() {
     fetchData();
   }, []);
 
-  const categories = Array.from(
-    new Set(
-      data.map((item) =>
-        language === "pt" ? item.categoria : item.categoria_en
-      )
-    )
-  );
+  const categoryOrderPT = [
+    "Cafetaria",
+    "Pastelaria",
+    "Tostas e Torradas",
+    "Sandes",
+    "Baguetes",
+    "Saladas",
+    "Pequeno Almoço Inglês",
+    "Hamburgueres",
+    "Bacon Rolls",
+    "Tapas",
+    "Bebidas",
+    "Sumos Naturais de Fruta",
+    "Smoothies",
+    "Vinhos",
+    "Bebidas Espirituosas",
+    "Cocktails",
+    "Granizados",
+    "Batidos",
+    "Acepipe Especial",
+    "Taças de Gelado",
+    "Crepes",
+    "Panquecas",
+    "Waffles",
+    "Bubble Waffle",
+    "Extras",
+  ];
+
+  const categoryOrderEN = [
+    "Cafeteria",
+    "Pastry",
+    "Toasts and Bread",
+    "Sandwiches",
+    "Baguettes",
+    "Salads",
+    "English Breakfast",
+    "Burgers",
+    "Bacon Rolls",
+    "Tapas",
+    "Drinks",
+    "Natural Fruit Juices",
+    "Smoothies",
+    "Wines",
+    "Alcoholic Beverages",
+    "Cocktails",
+    "Slushy",
+    "Smoothies",
+    "Acepipe Especial",
+    "Ice Cream Bowls",
+    "Crepes",
+    "Pancakes",
+    "Waffles",
+    "Bubble Waffle",
+    "Extras",
+  ];
+
+  const orderedCategories =
+    language === "pt" ? categoryOrderPT : categoryOrderEN;
+
+  const sortProducts = (products) => {
+    const specialProductId = 198;
+
+    return products.sort((a, b) => {
+      if (a.id === specialProductId) return 1;
+      if (b.id === specialProductId) return -1;
+      return 0;
+    });
+  };
 
   return (
     <>
@@ -30,18 +91,21 @@ export default function Home() {
         <div className={styles.container}>
           <LanguageSwitcher setLanguage={setLanguage} />
           <div className={styles.cards}>
-            {categories.map((catText) => {
+            {orderedCategories.map((catText) => {
               const productsInCategory = data.filter(
                 (item) =>
                   (language === "pt" ? item.categoria : item.categoria_en) ===
                   catText
               );
+
+              const sortedProductsInCategory = sortProducts(productsInCategory);
+
               return (
                 <CollapsibleCategoryCard
                   key={catText}
                   title={catText}
                   language={language}
-                  products={productsInCategory}
+                  products={sortedProductsInCategory}
                 />
               );
             })}

@@ -1,11 +1,13 @@
 import Layout from "@/components/layout";
 import "typeface-roboto";
 import "@/styles/globals.css";
+import BackToTopButton from "@/utils/scrollButton";
 
 export default function App({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
+      <BackToTopButton />
     </Layout>
   );
 }
