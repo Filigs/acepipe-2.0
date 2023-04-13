@@ -18,7 +18,7 @@ Bebidas Espirituosas
 Tapas
 Vinhos
 Taças de Gelado
-Acepipe Special
+Acepipe Especial
 Bubble Waffles
 Batidos
 Saladas
