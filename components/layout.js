@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-200">
+      <div className="min-h-screen bg-gradient-to-b from-amber-50 to-amber-100">
         <main>{children}</main>
         <Footer />
       </div>

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import cardStyles from "@/styles/CollapsibleCategoryCard.module.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
 import { MdCloseFullscreen } from "react-icons/md";
@@ -22,38 +23,45 @@ function CollapsibleCategoryCard({ title, language, products }) {
   };
 
   const variants = {
-    open: { opacity: 1, height: "auto" },
-    closed: { opacity: 0, height: 0 },
+    open: { opacity: 1, height: "auto", scaleY: 1 },
+    closed: { opacity: 0, height: 0, scaleY: 0.8 },
   };
 
   return (
     <div className={styles.categoryCard}>
       {!isOpen && (
-        <div className={styles.cardImageContainer} onClick={toggleOpen}>
-          <Image
-            src={cardImage}
-            alt={title}
-            className={styles.cardImage}
-            width={400}
-            height={300}
-          />
+        <div className={styles.card}>
+          <div className={styles.cardImageContainer}>
+            <Image
+              src={cardImage}
+              alt={title}
+              fill
+              className={styles.cardImage}
+            />
+          </div>
+          <div className={styles.cardTitle}>{title}</div>
+          <div>
+            <button className={styles.cardButton} onClick={toggleOpen}>
+              Show More
+            </button>
+          </div>
         </div>
       )}
       {isOpen && (
         <>
-          <button
-            className={`${styles.categoryCardTitle} w-full text-center flex justify-center`}
-            onClick={toggleOpen}
-          >
-            {title}
-            <MdCloseFullscreen className="ml-4 " />
-          </button>
+          <div className={cardStyles.cardTitle}>
+            <h3 className={cardStyles.cardTitleText}>{title}</h3>
+            <button onClick={toggleOpen}>
+              <MdCloseFullscreen className={cardStyles.closeIcon} />
+            </button>
+          </div>
+
           <motion.div
-            className={styles.collapsibleContent}
+            className={`${styles.collapsibleContent} ${cardStyles.collapsibleContent}`}
             variants={variants}
             initial="closed"
             animate={isOpen ? "open" : "closed"}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
           >
             {products.map((product) => (
               <ProductCard
