@@ -12,7 +12,7 @@ const ProductCard = ({ name, ingredients, price }) => {
   };
 
   return (
-    <div className={`${styles.productCard} shadow-md`}>
+    <div className={`${styles.productCard}`}>
       <h3 className={`${styles.productCardName} text-primary`}>{name}</h3>
       {ingredients && (
         <div className={styles.productCardIngredientsContainer}>
