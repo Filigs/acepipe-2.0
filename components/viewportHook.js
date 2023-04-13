@@ -23,8 +23,9 @@ export const ViewportHook = (width) => {
       setTargetReached(true);
     }
 
+    // Add the missing dependencies to the dependency array
     return () => media.removeEventListener("change", updateTarget);
-  }, []);
+  }, [updateTarget, width]);
 
   return targetReached;
 };
