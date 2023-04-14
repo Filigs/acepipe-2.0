@@ -2,10 +2,13 @@ import { useState, useEffect } from "react";
 import CollapsibleCategoryCard from "@/components/CollapsibleCategoryCard";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import styles from "@/styles/Home.module.css";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 export default function Home() {
   const [data, setData] = useState([]);
   const [language, setLanguage] = useState("pt");
+  const [expandedCard, setExpandedCard] = useState(null);
+
   useEffect(() => {
     async function fetchData() {
       const response = await fetch("/lib/data.json");
@@ -62,7 +65,6 @@ export default function Home() {
     "Alcoholic Beverages",
     "Cocktails",
     "Slushy",
-    "Smoothies",
     "Acepipe Special",
     "Ice Cream Bowls",
     "Crepes",
@@ -106,9 +108,18 @@ export default function Home() {
                   title={catText}
                   language={language}
                   products={sortedProductsInCategory}
+                  setExpandedCard={setExpandedCard} // Add this prop
                 />
               );
             })}
+            {expandedCard && (
+              <button
+                className="fixed p-2 text-xl bg-white rounded-full shadow-md bottom-4 right-4"
+                onClick={() => setExpandedCard(null)}
+              >
+                <MdKeyboardArrowDown />
+              </button>
+            )}
           </div>
         </div>
       </main>

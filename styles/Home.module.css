@@ -44,7 +44,7 @@
 /* Product Card */
 
 .productCard {
-  @apply p-4 mb-4 bg-white text-gray-700 font-bold rounded-md border-gray-200;
+  @apply p-4 mb-4 bg-white text-gray-700 font-bold rounded-md border-gray-200 odd:bg-gray-50;
 }
 
 .productCardName {
@@ -53,6 +53,10 @@
 
 .productCardIngredients {
   @apply text-sm mb-2 text-gray-500;
+}
+
+.productCardIngredientsContainer {
+  @apply flex items-center;
 }
 
 .productCardPrice {
@@ -120,6 +124,23 @@
 .collapsibleContent {
   @apply mt-4 bg-white;
 }
+
+.closeButtonWrapper {
+  @apply flex;
+  @apply justify-center;
+  @apply mt-4;
+}
+
+.closeButton {
+  @apply bg-gray-200;
+  @apply p-2;
+  @apply rounded-full;
+}
+
+.closeIcon {
+  @apply text-xl;
+}
+
 .categoryCard {
   @apply min-w-[20rem];
   @apply max-w-xl;
@@ -141,7 +162,7 @@
 }
 
 .ingredientsTooltip {
-  @apply invisible bg-white text-gray-500 p-2 rounded-md shadow-md absolute;
+  @apply invisible bg-white text-gray-500 rounded-md shadow-md absolute;
 }
 
 .productCard:hover .ingredientsTooltip {

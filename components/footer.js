@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <p className={styles.disclaimer}>Images are merely illustrative.</p>
+        <p className={styles.disclaimer}>Images are merely illustrative</p>
       </div>
     </footer>
   );

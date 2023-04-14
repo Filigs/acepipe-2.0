@@ -5,10 +5,16 @@ import styles from "@/styles/Home.module.css";
 import cardStyles from "@/styles/CollapsibleCategoryCard.module.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
-import { MdCloseFullscreen } from "react-icons/md";
+import { MdRemove } from "react-icons/md";
 import normalizeSrcUrl from "@/utils/normalizeSrcUrl";
+import { MdExpandLess } from "react-icons/md";
 
-function CollapsibleCategoryCard({ title, language, products }) {
+function CollapsibleCategoryCard({
+  title,
+  language,
+  products,
+  setExpandedCard,
+}) {
   const lowercasedTitle = normalizeSrcUrl(
     title.toLowerCase().replace(/\s+/g, "-")
   );
@@ -19,6 +25,11 @@ function CollapsibleCategoryCard({ title, language, products }) {
       : `/en/${lowercasedTitle}.jpg`;
 
   const toggleOpen = () => {
+    if (isOpen) {
+      setExpandedCard(null);
+    } else {
+      setExpandedCard(title);
+    }
     setIsOpen(!isOpen);
   };
 
@@ -52,7 +63,7 @@ function CollapsibleCategoryCard({ title, language, products }) {
           <div className={cardStyles.cardTitle}>
             <h3 className={cardStyles.cardTitleText}>{title}</h3>
             <button onClick={toggleOpen}>
-              <MdCloseFullscreen className={cardStyles.closeIcon} />
+              <MdRemove className={cardStyles.closeIcon} />
             </button>
           </div>
 
@@ -76,6 +87,11 @@ function CollapsibleCategoryCard({ title, language, products }) {
                 className={[styles.cards, styles.categoryLabel]}
               />
             ))}
+            <div className={styles.closeButtonWrapper}>
+              <button onClick={toggleOpen}>
+                <MdExpandLess className={cardStyles.closeIcon} />
+              </button>
+            </div>
           </motion.div>
         </>
       )}
