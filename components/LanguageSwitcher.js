@@ -35,6 +35,9 @@ const LanguageSwitcher = ({ setLanguage }) => {
         </button>
       </div>
       <SocialLinks />
+      {/* <div className="mt-2 font- text-secondary">
+        {activeLanguage === "pt" ? "Siga-nos" : "Follow us"}
+      </div> */}
     </div>
   );
 };
