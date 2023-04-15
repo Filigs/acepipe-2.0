@@ -26,12 +26,21 @@ class myDocument extends Document {
           />
           {/* SEO */}
           <meta name="robots" content="all" />
+          {/* pic:
+          https://res.cloudinary.com/dufn79tap/image/upload/v1681553634/acepipe/acepipe_ujopnx.jpg */}
           {/* social media url preview */}
           <meta property="og:url" content="https://www.acepipe.pt" />
           <meta property="og:title" content="Acepipe - Albufeira" />
           <meta property="og:description" content="Acepipe - Albufeira" />
-
           <meta property="og:site_name" content="Acepipe - Albufeira" />
+          <meta
+            property="og:image"
+            content="https://res.cloudinary.com/dufn79tap/image/upload/v1681553634/acepipe/acepipe_ujopnx.jpg"
+          />
+          <meta
+            name="twitter:image"
+            content="https://res.cloudinary.com/dufn79tap/image/upload/v1681553634/acepipe/acepipe_ujopnx.jpg"
+          />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="https://www.acepipe.pt" />
           <meta name="twitter:creator" content="Acepipe - Albufeira" />
