@@ -44,7 +44,7 @@ const ProductCard = ({ name, ingredients, price, language }) => {
           )}
         </div>
       )}
-      <div className={`${styles.productCardPrice}`}>{price}0€</div>
+      <div className={`${styles.productCardPrice}`}>{price}€</div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
 import { MdRemove, MdExpandLess } from "react-icons/md";
 import normalizeSrcUrl from "@/utils/normalizeSrcUrl";
-
+import { categoryOrderEN, categoryOrderPT } from "@/public/lib/categories";
 function CollapsibleCategoryCard({
   title,
   language,
@@ -26,6 +26,43 @@ function CollapsibleCategoryCard({
     } else {
       setExpandedCard(title);
     }
+  };
+  const getCategoryHighlightText = (category) => {
+    const index = categoryOrderEN.indexOf(category);
+    const ptCategory = categoryOrderPT[index];
+
+    const highlightTexts = {
+      "Tostas e Torradas": {
+        pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+        en: "Adding fries adds the value of 2€",
+      },
+      Baguetes: {
+        pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+        en: "Adding fries adds the value of 2€",
+      },
+      "Bacon Rolls": {
+        pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+        en: "Adding fries adds the value of 2€",
+      },
+      Hamburgueres: {
+        pt: "Todos os hamburgueres incluem batatas fritas",
+        en: "All burgers include fries",
+      },
+      Crepes: {
+        pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+        en: "Adding a scoop of ice cream adds the value of 2€",
+      },
+      Panquecas: {
+        pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+        en: "Adding a scoop of ice cream adds the value of 2€",
+      },
+      Waffles: {
+        pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+        en: "Adding a scoop of ice cream adds the value of 2€",
+      },
+    };
+
+    return highlightTexts[ptCategory] && highlightTexts[ptCategory][language];
   };
 
   const cardImage =
@@ -92,6 +129,11 @@ function CollapsibleCategoryCard({
                 <MdExpandLess className={cardStyles.closeIcon} />
               </button>
             </div>
+            {getCategoryHighlightText(title) && (
+              <div className={cardStyles.highlightText}>
+                {getCategoryHighlightText(title)}
+              </div>
+            )}
           </motion.div>
         </>
       )}

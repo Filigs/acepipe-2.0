@@ -3,7 +3,7 @@ import CollapsibleCategoryCard from "@/components/CollapsibleCategoryCard";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import styles from "@/styles/Home.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
-
+import { categoryOrderEN, categoryOrderPT } from "@/public/lib/categories";
 export default function Home() {
   const [data, setData] = useState([]);
   const [language, setLanguage] = useState("pt");
@@ -18,59 +18,6 @@ export default function Home() {
 
     fetchData();
   }, []);
-
-  const categoryOrderPT = [
-    "Cafetaria",
-    "Pastelaria",
-    "Tostas e Torradas",
-    "Baguetes",
-    "Saladas",
-    "Pequeno Almoço Inglês",
-    "Hamburgueres",
-    "Bacon Rolls",
-    "Tapas",
-    "Bebidas",
-    "Sumos Naturais de Fruta",
-    "Smoothies",
-    "Vinhos",
-    "Bebidas Espirituosas",
-    "Cocktails",
-    "Granizados",
-    "Batidos",
-    "Acepipe Especial",
-    "Taças de Gelado",
-    "Crepes",
-    "Panquecas",
-    "Waffles",
-    "Bubble Waffles",
-    "Extras",
-  ];
-
-  const categoryOrderEN = [
-    "Cafeteria",
-    "Pastry",
-    "Toasts and Bread",
-    "Baguettes",
-    "Salads",
-    "English Breakfast",
-    "Burgers",
-    "Bacon Rolls",
-    "Tapas",
-    "Drinks",
-    "Natural Fruit Juices",
-    "Smoothies",
-    "Wines",
-    "Alcoholic Beverages",
-    "Cocktails",
-    "Slushies",
-    "Acepipe Special",
-    "Ice Cream Bowls",
-    "Crepes",
-    "Pancakes",
-    "Waffles",
-    "Bubble Waffles",
-    "Extras",
-  ];
 
   const orderedCategories =
     language === "pt" ? categoryOrderPT : categoryOrderEN;
