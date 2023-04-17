@@ -1,28 +1,24 @@
 // CollapsibleCategoryCard.js
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import cardStyles from "@/styles/CollapsibleCategoryCard.module.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
-import { MdRemove } from "react-icons/md";
+import { MdRemove, MdExpandLess } from "react-icons/md";
 import normalizeSrcUrl from "@/utils/normalizeSrcUrl";
-import { MdExpandLess } from "react-icons/md";
 
 function CollapsibleCategoryCard({
   title,
   language,
   products,
+  expandedCard,
   setExpandedCard,
 }) {
+  const isOpen = expandedCard === title;
   const lowercasedTitle = normalizeSrcUrl(
     title.toLowerCase().replace(/\s+/g, "-")
   );
-  const [isOpen, setIsOpen] = useState(false);
-  const cardImage =
-    language === "pt"
-      ? `/pt/${lowercasedTitle}.jpg`
-      : `/en/${lowercasedTitle}.jpg`;
 
   const toggleOpen = () => {
     if (isOpen) {
@@ -30,8 +26,12 @@ function CollapsibleCategoryCard({
     } else {
       setExpandedCard(title);
     }
-    setIsOpen(!isOpen);
   };
+
+  const cardImage =
+    language === "pt"
+      ? `/pt/${lowercasedTitle}.jpg`
+      : `/en/${lowercasedTitle}.jpg`;
 
   const variants = {
     open: { opacity: 1, height: "auto", scaleY: 1 },

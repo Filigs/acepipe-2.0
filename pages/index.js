@@ -105,6 +105,7 @@ export default function Home() {
                 title={catText}
                 language={language}
                 products={sortedProductsInCategory}
+                expandedCard={expandedCard} // Add this prop
                 setExpandedCard={setExpandedCard} // Add this prop
               />
             );
