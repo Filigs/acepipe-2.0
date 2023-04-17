@@ -64,7 +64,7 @@ export default function Home() {
     "Wines",
     "Alcoholic Beverages",
     "Cocktails",
-    "Slushy",
+    "Slushies",
     "Acepipe Special",
     "Ice Cream Bowls",
     "Crepes",
