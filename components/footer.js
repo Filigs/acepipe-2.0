@@ -1,25 +1,33 @@
-import React, { useContext } from "react";
-import LanguageContext from "@/context/LanguageContext";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/Footer.module.css";
 
-const Footer = () => {
-  const { language } = useContext(LanguageContext);
+const Footer = ({ language }) => {
+  const [disclaimerText, setDisclaimerText] = useState("");
+  const [secondDisclaimerText, setSecondDisclaimerText] = useState("");
 
-  const disclaimerText =
-    language === "pt"
-      ? "As imagens são meramente ilustrativas"
-      : "Images are merely illustrative";
+  useEffect(() => {
+    const updateText = () => {
+      if (language === "pt") {
+        setDisclaimerText("As imagens são meramente ilustrativas");
+        setSecondDisclaimerText(
+          "Todos os preços incluem IVA à taxa legal em vigor"
+        );
+      } else {
+        setDisclaimerText("Images are merely illustrative");
+        setSecondDisclaimerText(
+          "All prices include VAT at the legal rate in force"
+        );
+      }
+    };
 
-  const vatText =
-    language === "pt"
-      ? "Todos os preços incluem IVA à taxa legal em vigor"
-      : "All prices include VAT at the legal rate in force";
+    updateText();
+  }, [language]);
 
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
         <p className={styles.disclaimer}>{disclaimerText}</p>
-        <p className={styles.disclaimer}>{vatText}</p>
+        <p className={styles.disclaimer}>{secondDisclaimerText}</p>
       </div>
     </footer>
   );
