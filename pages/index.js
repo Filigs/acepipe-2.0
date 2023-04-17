@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import CollapsibleCategoryCard from "@/components/CollapsibleCategoryCard";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import styles from "@/styles/Home.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import LanguageContext from "@/utils/languageContext";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -86,7 +87,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <LanguageContext.Provider value={{ language, setLanguage }}>
       <main>
         <div className={styles.container}>
           <LanguageSwitcher setLanguage={setLanguage} />
@@ -121,6 +122,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </>
+    </LanguageContext.Provider>
   );
 }
