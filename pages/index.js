@@ -23,7 +23,6 @@ export default function Home() {
     "Cafetaria",
     "Pastelaria",
     "Tostas e Torradas",
-    "Sandes",
     "Baguetes",
     "Saladas",
     "Pequeno Almoço Inglês",
@@ -51,7 +50,6 @@ export default function Home() {
     "Cafeteria",
     "Pastry",
     "Toasts and Bread",
-    "Sandwiches",
     "Baguettes",
     "Salads",
     "English Breakfast",
@@ -64,7 +62,7 @@ export default function Home() {
     "Wines",
     "Alcoholic Beverages",
     "Cocktails",
-    "Slushy",
+    "Slushies",
     "Acepipe Special",
     "Ice Cream Bowls",
     "Crepes",
@@ -88,41 +86,39 @@ export default function Home() {
   };
 
   return (
-    <>
-      <main>
-        <div className={styles.container}>
-          <LanguageSwitcher setLanguage={setLanguage} />
-          <div className={styles.cards}>
-            {orderedCategories.map((catText) => {
-              const productsInCategory = data.filter(
-                (item) =>
-                  (language === "pt" ? item.categoria : item.categoria_en) ===
-                  catText
-              );
+    <main>
+      <div className={styles.container}>
+        <LanguageSwitcher setLanguage={setLanguage} />
+        <div className={styles.cards}>
+          {orderedCategories.map((catText) => {
+            const productsInCategory = data.filter(
+              (item) =>
+                (language === "pt" ? item.categoria : item.categoria_en) ===
+                catText
+            );
 
-              const sortedProductsInCategory = sortProducts(productsInCategory);
+            const sortedProductsInCategory = sortProducts(productsInCategory);
 
-              return (
-                <CollapsibleCategoryCard
-                  key={catText}
-                  title={catText}
-                  language={language}
-                  products={sortedProductsInCategory}
-                  setExpandedCard={setExpandedCard} // Add this prop
-                />
-              );
-            })}
-            {expandedCard && (
-              <button
-                className="fixed p-2 text-xl bg-white rounded-full shadow-md bottom-4 right-4"
-                onClick={() => setExpandedCard(null)}
-              >
-                <MdKeyboardArrowDown />
-              </button>
-            )}
-          </div>
+            return (
+              <CollapsibleCategoryCard
+                key={catText}
+                title={catText}
+                language={language}
+                products={sortedProductsInCategory}
+                setExpandedCard={setExpandedCard} // Add this prop
+              />
+            );
+          })}
+          {expandedCard && (
+            <button
+              className="fixed p-2 text-xl bg-white rounded-full shadow-md bottom-4 right-4"
+              onClick={() => setExpandedCard(null)}
+            >
+              <MdKeyboardArrowDown />
+            </button>
+          )}
         </div>
-      </main>
-    </>
+      </div>
+    </main>
   );
 }

@@ -42,7 +42,7 @@ Croissants
 English Breakfast
 Drinks
 Natural Fruit Juices
-Slushy
+Slushies
 Alcoholic Beverages
 Tapas
 Wines
@@ -102,7 +102,7 @@ Smoothies
 Wines
 Alcoholic Beverages
 Cocktails
-Slushy
+Slushies
 Smoothies
 Acepipe Special
 Ice Cream Bowls
