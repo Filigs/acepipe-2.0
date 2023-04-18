@@ -4,6 +4,7 @@ import styles from "@/styles/Footer.module.css";
 const Footer = ({ language }) => {
   const [disclaimerText, setDisclaimerText] = useState("");
   const [secondDisclaimerText, setSecondDisclaimerText] = useState("");
+  const [thirdDisclaimerText, setThirdDisclaimerText] = useState("");
 
   useEffect(() => {
     const updateText = () => {
@@ -12,10 +13,16 @@ const Footer = ({ language }) => {
         setSecondDisclaimerText(
           "Todos os preços incluem IVA à taxa legal em vigor"
         );
+        setThirdDisclaimerText(
+          "Em caso de alergias ou intolerâncias, por favor informe-nos"
+        );
       } else {
         setDisclaimerText("Images are merely illustrative");
         setSecondDisclaimerText(
           "All prices include VAT at the legal rate in force"
+        );
+        setThirdDisclaimerText(
+          "Please inform us of any allergie or intolerance you may have"
         );
       }
     };
@@ -28,6 +35,7 @@ const Footer = ({ language }) => {
       <div className={styles.container}>
         <p className={styles.disclaimer}>{disclaimerText}</p>
         <p className={styles.disclaimer}>{secondDisclaimerText}</p>
+        <p className={styles.disclaimer}>{thirdDisclaimerText}</p>
       </div>
     </footer>
   );
