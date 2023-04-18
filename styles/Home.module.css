@@ -13,7 +13,7 @@
 }
 
 .languageButtonSecondary {
-  @apply text-primary bg-white border-primary;
+  @apply text-white bg-primaryDark border-primary;
 }
 
 .languageButton {
@@ -25,7 +25,7 @@
 }
 
 .languageButtonActive {
-  @apply bg-opacity-100;
+  @apply bg-opacity-100 bg-white text-primary;
 }
 
 /* Logo Container */
