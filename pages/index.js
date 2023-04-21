@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import CollapsibleCategoryCard from "@/components/CollapsibleCategoryCard";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import styles from "@/styles/Home.module.css";
-import { MdKeyboardArrowDown } from "react-icons/md";
+// import { MdKeyboardArrowDown } from "react-icons/md";
 import { categoryOrderEN, categoryOrderPT } from "@/public/lib/categories";
 import { useLanguage } from "@/utils/LanguageContext";
 
@@ -64,7 +64,7 @@ export default function Home() {
               className="fixed p-2 text-xl bg-white rounded-full shadow-md bottom-4 right-4"
               onClick={() => setExpandedCard(null)}
             >
-              <MdKeyboardArrowDown />
+              {/* <MdKeyboardArrowDown /> */}
             </button>
           )}
         </div>
