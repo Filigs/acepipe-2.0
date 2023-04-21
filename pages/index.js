@@ -4,9 +4,12 @@ import LanguageSwitcher from "../components/LanguageSwitcher";
 import styles from "@/styles/Home.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { categoryOrderEN, categoryOrderPT } from "@/public/lib/categories";
+import { useLanguage } from "@/utils/LanguageContext";
+
 export default function Home() {
   const [data, setData] = useState([]);
-  const [language, setLanguage] = useState("pt");
+  const { language } = useLanguage();
+
   const [expandedCard, setExpandedCard] = useState(null);
 
   useEffect(() => {
@@ -35,7 +38,7 @@ export default function Home() {
   return (
     <main>
       <div className={styles.container}>
-        <LanguageSwitcher setLanguage={setLanguage} />
+        <LanguageSwitcher />
         <div className={styles.cards}>
           {orderedCategories.map((catText) => {
             const productsInCategory = data.filter(
@@ -50,7 +53,6 @@ export default function Home() {
               <CollapsibleCategoryCard
                 key={catText}
                 title={catText}
-                language={language}
                 products={sortedProductsInCategory}
                 expandedCard={expandedCard} // Add this prop
                 setExpandedCard={setExpandedCard} // Add this prop

@@ -1,10 +1,13 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import normalizeSrcUrl from "@/utils/normalizeSrcUrl";
-function CategoryCard({ title, language }) {
+import { useLanguage } from "@/utils/LanguageContext";
+
+function CategoryCard({ title }) {
   const lowercasedTitle = normalizeSrcUrl(
     title.toLowerCase().replace(/\s+/g, "-")
   );
+  const { language } = useLanguage();
   const cardImage =
     language === "pt"
       ? `/pt/${lowercasedTitle}.jpg`

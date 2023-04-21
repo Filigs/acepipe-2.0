@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styles from "@/styles/Footer.module.css";
+import { useLanguage } from "@/utils/LanguageContext";
 
-const Footer = ({ language }) => {
+const Footer = () => {
   const [disclaimerText, setDisclaimerText] = useState("");
   const [secondDisclaimerText, setSecondDisclaimerText] = useState("");
   const [thirdDisclaimerText, setThirdDisclaimerText] = useState("");
+
+  const { language } = useLanguage();
 
   useEffect(() => {
     const updateText = () => {

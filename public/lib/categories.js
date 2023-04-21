@@ -5,7 +5,7 @@ export const categoryOrderPT = [
   "Baguetes",
   "Saladas",
   "Pequeno Almoço Inglês",
-  "Hamburgueres",
+  "Hambúrgueres",
   "Bacon Rolls",
   "Tapas",
   "Bebidas",
