@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 import { MdRemove, MdExpandLess } from "react-icons/md";
 import normalizeSrcUrl from "@/utils/normalizeSrcUrl";
 import { categoryOrderEN, categoryOrderPT } from "@/public/lib/categories";
+import { useLanguage } from "@/utils/LanguageContext";
 function CollapsibleCategoryCard({
   title,
-  language,
   products,
   expandedCard,
   setExpandedCard,
@@ -19,6 +19,7 @@ function CollapsibleCategoryCard({
   const lowercasedTitle = normalizeSrcUrl(
     title.toLowerCase().replace(/\s+/g, "-")
   );
+  const { language } = useLanguage();
 
   const toggleOpen = () => {
     if (isOpen) {

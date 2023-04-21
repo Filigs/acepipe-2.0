@@ -3,9 +3,11 @@ import React, { useState } from "react";
 import styles from "@/styles/Home.module.css";
 import { HiOutlineInformationCircle } from "react-icons/hi";
 import { motion } from "framer-motion";
+import { useLanguage } from "@/utils/LanguageContext";
 
-const ProductCard = ({ name, ingredients, price, language }) => {
+const ProductCard = ({ name, ingredients, price }) => {
   const [isTooltipOpen, setIsTooltipOpen] = useState(false);
+  const { language } = useLanguage();
 
   let capitalizedName = name.charAt(0).toUpperCase() + name.slice(1);
   const toggleTooltip = () => {
@@ -27,7 +29,7 @@ const ProductCard = ({ name, ingredients, price, language }) => {
             ""
           ) : (
             <span className="ml-2 text-sm italic text-gray-500 ">
-              {language === "pt" ? "Ingredients" : "Ingredientes"}
+              {language === "pt" ? "Ingredientes" : "Ingredients"}
             </span>
           )}
           {isTooltipOpen && (

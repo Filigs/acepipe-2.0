@@ -3,11 +3,15 @@ import "typeface-roboto";
 import "@/styles/globals.css";
 import BackToTopButton from "@/utils/scrollButton";
 import "in-viewport";
+import { LanguageProvider } from "../utils/LanguageContext";
+
 export default function App({ Component, pageProps }) {
   return (
-    <Layout language={pageProps.language}>
-      <Component {...pageProps} />
-      <BackToTopButton />
-    </Layout>
+    <LanguageProvider>
+      <Layout>
+        <Component {...pageProps} />
+        <BackToTopButton />
+      </Layout>
+    </LanguageProvider>
   );
 }
