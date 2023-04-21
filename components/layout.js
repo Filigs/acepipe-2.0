@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Footer from "./footer";
-const Layout = ({ children, language }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ const Layout = ({ children, language }) => {
       </Head>
       <div className="min-h-screen bg-gradient-to-b from-amber-50 to-amber-100">
         <main>{children}</main>
-        <Footer language={language} />
+        <Footer />
       </div>
     </>
   );
