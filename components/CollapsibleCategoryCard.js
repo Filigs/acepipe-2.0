@@ -28,9 +28,13 @@ function CollapsibleCategoryCard({
       setExpandedCard(title);
     }
   };
-  const getCategoryHighlightText = (category) => {
-    const index = categoryOrderEN.indexOf(category);
+  const getCategoryHighlightText = (title) => {
+    const index =
+      language === "pt"
+        ? categoryOrderPT.indexOf(title)
+        : categoryOrderEN.indexOf(title);
     const ptCategory = categoryOrderPT[index];
+    const enCategory = categoryOrderEN[index];
 
     const highlightTexts = {
       "Tostas e Torradas": {
@@ -45,8 +49,8 @@ function CollapsibleCategoryCard({
         pt: "Ao adicionar batatas fritas acresce o valor de 2€",
         en: "Adding fries adds the value of 2€",
       },
-      Hamburgueres: {
-        pt: "Todos os hamburgueres incluem batatas fritas",
+      Hambúrgueres: {
+        pt: "Todos os hambúrgueres incluem batatas fritas",
         en: "All burgers include fries",
       },
       Crepes: {
@@ -57,13 +61,30 @@ function CollapsibleCategoryCard({
         pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
         en: "Adding a scoop of ice cream adds the value of 2€",
       },
+      "Bubble Waffles": {
+        pt: "",
+        en: "",
+      },
       Waffles: {
         pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
         en: "Adding a scoop of ice cream adds the value of 2€",
       },
     };
-
-    return highlightTexts[ptCategory] && highlightTexts[ptCategory][language];
+    if (language === "en") {
+      return (
+        highlightTexts[enCategory] &&
+        highlightTexts[enCategory][language] &&
+        highlightTexts[enCategory][language].length > 0 &&
+        highlightTexts[enCategory][language]
+      );
+    } else {
+      return (
+        highlightTexts[ptCategory] &&
+        highlightTexts[ptCategory][language] &&
+        highlightTexts[ptCategory][language].length > 0 &&
+        highlightTexts[ptCategory][language]
+      );
+    }
   };
 
   const cardImage =
@@ -76,6 +97,8 @@ function CollapsibleCategoryCard({
     closed: { opacity: 0, height: 0, scaleY: 0.8 },
   };
 
+  const index = categoryOrderEN.indexOf(title);
+  const ptCategory = categoryOrderPT[index];
   return (
     <div className={styles.categoryCard}>
       {!isOpen && (
