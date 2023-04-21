@@ -9,6 +9,7 @@ import { MdRemove, MdExpandLess } from "react-icons/md";
 import normalizeSrcUrl from "@/utils/normalizeSrcUrl";
 import { categoryOrderEN, categoryOrderPT } from "@/public/lib/categories";
 import { useLanguage } from "@/utils/LanguageContext";
+
 function CollapsibleCategoryCard({
   title,
   products,
@@ -28,6 +29,73 @@ function CollapsibleCategoryCard({
       setExpandedCard(title);
     }
   };
+
+  // acompanhamentos
+  const highlightTexts = {
+    "Tostas e Torradas": {
+      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+      en: "Adding fries adds the value of 2€",
+    },
+    Baguetes: {
+      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+      en: "Adding fries adds the value of 2€",
+    },
+    "Bacon Rolls": {
+      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+      en: "Adding fries adds the value of 2€",
+    },
+    Hambúrgueres: {
+      pt: "Todos os hambúrgueres incluem batatas fritas",
+      en: "All burgers include fries",
+    },
+    Crepes: {
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+      en: "Adding a scoop of ice cream adds the value of 2€",
+    },
+    Panquecas: {
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+      en: "Adding a scoop of ice cream adds the value of 2€",
+    },
+    "Bubble Waffles": {
+      pt: "",
+      en: "",
+    },
+    Waffles: {
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+      en: "Adding a scoop of ice cream adds the value of 2€",
+    },
+  };
+  const highlightTextsEN = {
+    "Toasts and Bread": {
+      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+      en: "Adding fries adds the value of 2€",
+    },
+    Baguettes: {
+      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+      en: "Adding fries adds the value of 2€",
+    },
+    "Bacon Rolls": {
+      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
+      en: "Adding fries adds the value of 2€",
+    },
+    Burgers: {
+      pt: "Todos os hambúrgueres incluem batatas fritas",
+      en: "All burgers include fries",
+    },
+    Crepes: {
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+      en: "Adding a scoop of ice cream adds the value of 2€",
+    },
+    Pancakes: {
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+      en: "Adding a scoop of ice cream adds the value of 2€",
+    },
+    Waffles: {
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
+      en: "Adding a scoop of ice cream adds the value of 2€",
+    },
+  };
+
   const getCategoryHighlightText = (title) => {
     const index =
       language === "pt"
@@ -36,53 +104,17 @@ function CollapsibleCategoryCard({
     const ptCategory = categoryOrderPT[index];
     const enCategory = categoryOrderEN[index];
 
-    const highlightTexts = {
-      "Tostas e Torradas": {
-        pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-        en: "Adding fries adds the value of 2€",
-      },
-      Baguetes: {
-        pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-        en: "Adding fries adds the value of 2€",
-      },
-      "Bacon Rolls": {
-        pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-        en: "Adding fries adds the value of 2€",
-      },
-      Hambúrgueres: {
-        pt: "Todos os hambúrgueres incluem batatas fritas",
-        en: "All burgers include fries",
-      },
-      Crepes: {
-        pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-        en: "Adding a scoop of ice cream adds the value of 2€",
-      },
-      Panquecas: {
-        pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-        en: "Adding a scoop of ice cream adds the value of 2€",
-      },
-      "Bubble Waffles": {
-        pt: "",
-        en: "",
-      },
-      Waffles: {
-        pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-        en: "Adding a scoop of ice cream adds the value of 2€",
-      },
-    };
+    const combinedHighlightTexts = { ...highlightTexts, ...highlightTextsEN };
+
     if (language === "en") {
       return (
-        highlightTexts[enCategory] &&
-        highlightTexts[enCategory][language] &&
-        highlightTexts[enCategory][language].length > 0 &&
-        highlightTexts[enCategory][language]
+        combinedHighlightTexts[enCategory] &&
+        combinedHighlightTexts[enCategory][language]
       );
     } else {
       return (
-        highlightTexts[ptCategory] &&
-        highlightTexts[ptCategory][language] &&
-        highlightTexts[ptCategory][language].length > 0 &&
-        highlightTexts[ptCategory][language]
+        combinedHighlightTexts[ptCategory] &&
+        combinedHighlightTexts[ptCategory][language]
       );
     }
   };
