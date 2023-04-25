@@ -7,7 +7,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,00"
+    "preco": 1
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,00"
+    "preco": 1
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,20"
+    "preco": 1.2
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,20"
+    "preco": 1.2
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,00"
+    "preco": 2
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,20"
+    "preco": 1.2
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,20"
+    "preco": 1.2
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,60"
+    "preco": 2.6
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 2.2
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 2.2
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,60"
+    "preco": 2.6
   },
   {
     "id": 12,
@@ -117,2056 +117,2086 @@
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,60"
+    "preco": 2.6
   },
   {
     "id": 13,
+    "nome": "Chocolate Quente",
+    "nome_en": "Hot Chocolate",
+    "categoria": "Cafetaria",
+    "categoria_en": "Cafeteria",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 2.6
+  },
+  {
+    "id": 14,
     "nome": "Galão",
     "nome_en": "Latte",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,60"
+    "preco": 2.6
   },
   {
-    "id": 14,
+    "id": 15,
     "nome": "Capuccino",
     "nome_en": "Cappuccino",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,60"
+    "preco": 2.6
   },
   {
-    "id": 15,
+    "id": 16,
     "nome": "Capuccino com Chantilly",
     "nome_en": "Cappuccino with Whipped Cream",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,60"
+    "preco": 2.9
   },
   {
-    "id": 16,
+    "id": 17,
     "nome": "Chocolate Quente com Marshmallows",
     "nome_en": "Hot Chocolate with Marshmallows",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,50"
+    "preco": 5.5
   },
   {
-    "id": 17,
+    "id": 18,
     "nome": "Affogato",
     "nome_en": "Affogato (Espresso Poured Over a Scoop of Vanilla Ice Cream)",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,80"
+    "preco": 3.8
   },
   {
-    "id": 18,
+    "id": 19,
     "nome": "Chá",
     "nome_en": "Tea",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 2.2
   },
   {
-    "id": 19,
+    "id": 20,
     "nome": "Chá com Leite",
     "nome_en": "Tea with Milk",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,60"
+    "preco": 2.6
   },
   {
-    "id": 20,
+    "id": 21,
     "nome": "Leite Ucal",
     "nome_en": "Ucal (Chocolate Milk)",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 2.2
   },
   {
-    "id": 21,
+    "id": 22,
     "nome": "Copo de Leite",
     "nome_en": "Glass of Milk",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,50"
+    "preco": 1.5
   },
   {
-    "id": 22,
+    "id": 23,
     "nome": "Latte Caramel Machiatto",
     "nome_en": "Latte Caramel Machiatto",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,00"
+    "preco": 3
   },
   {
-    "id": 23,
+    "id": 24,
     "nome": "Latte Chocolate Machiatto",
     "nome_en": "Latte Chocolate Machiatto",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,00"
+    "preco": 3
   },
   {
-    "id": 24,
+    "id": 25,
     "nome": "Irish Coffee",
     "nome_en": "Irish Coffee",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,50"
+    "preco": 5.5
   },
   {
-    "id": 25,
+    "id": 26,
     "nome": "Café Algarvio",
     "nome_en": "Café Algarvio",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,50"
+    "preco": 5.5
   },
   {
-    "id": 26,
+    "id": 27,
     "nome": "Café Baileys",
     "nome_en": "Café Baileys",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,50"
+    "preco": 5.5
   },
   {
-    "id": 27,
+    "id": 28,
     "nome": "Abatanado XL",
     "nome_en": "Americano XL",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,50"
+    "preco": 3.5
   },
   {
-    "id": 28,
+    "id": 29,
     "nome": "Galão XL",
     "nome_en": "Latte XL",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,80"
+    "preco": 3.8
   },
   {
-    "id": 29,
+    "id": 30,
     "nome": "Café Duplo XL",
     "nome_en": "Double Espresso XL",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,80"
+    "preco": 3.8
   },
   {
-    "id": 30,
+    "id": 31,
     "nome": "Café com Leite XL",
     "nome_en": "Café com Leite XL (Coffee with Milk on The Side)",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,80"
+    "preco": 3.8
   },
   {
-    "id": 31,
+    "id": 32,
     "nome": "Capuccino XL",
     "nome_en": "Capuccino XL",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,80"
+    "preco": 3.8
   },
   {
-    "id": 32,
+    "id": 33,
     "nome": "Latte Caramel Machiatto XL",
     "nome_en": "Latte Caramel Machiatto XL",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
-    "id": 33,
+    "id": 34,
     "nome": "Latte Chocolate Machiatto XL",
     "nome_en": "Latte Chocolate Machiatto XL",
     "categoria": "Cafetaria",
     "categoria_en": "Cafeteria",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
-    "id": 34,
+    "id": 35,
     "nome": "Pastel de Nata",
     "nome_en": "Pastel de Nata (Portuguese Custard Tart)",
     "categoria": "Pastelaria",
     "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,50"
+    "preco": 1.5
   },
   {
-    "id": 35,
+    "id": 36,
     "nome": "Bolos Variados",
     "nome_en": "Assorted Cakes",
     "categoria": "Pastelaria",
     "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,80"
+    "preco": 1.8
   },
   {
-    "id": 36,
+    "id": 37,
     "nome": "Bolo à Fatia",
     "nome_en": "Sliced Cake",
     "categoria": "Pastelaria",
     "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,80"
+    "preco": 2.8
   },
   {
-    "id": 37,
+    "id": 38,
     "nome": "Croissant Simples",
     "nome_en": "Plain Croissant",
     "categoria": "Pastelaria",
     "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,80"
-  },
-  {
-    "id": 38,
-    "nome": "Croissant com Manteiga",
-    "nome_en": "Croissant with Butter",
-    "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 1.8
   },
   {
     "id": 39,
-    "nome": "Croissant com Queijo",
-    "nome_en": "Croissant with Cheese",
+    "nome": "Croissant com Manteiga",
+    "nome_en": "Croissant with Butter",
     "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
+    "categoria_en": "Croissants",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,80"
+    "preco": 2.2
   },
   {
     "id": 40,
-    "nome": "Croissant com Fiambre",
-    "nome_en": "Croissant with Ham",
+    "nome": "Croissant com Queijo",
+    "nome_en": "Croissant with Cheese",
     "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
+    "categoria_en": "Croissants",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,80"
+    "preco": 2.8
   },
   {
     "id": 41,
-    "nome": "Croissant com Nutella",
-    "nome_en": "Croissant with Nutella",
+    "nome": "Croissant com Fiambre",
+    "nome_en": "Croissant with Ham",
     "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
+    "categoria_en": "Croissants",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,20"
+    "preco": 2.8
   },
   {
     "id": 42,
-    "nome": "Croissant Misto",
-    "nome_en": "Ham and Cheese Croissant",
+    "nome": "Croissant com Nutella",
+    "nome_en": "Croissant with Nutella",
     "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
+    "categoria_en": "Croissants",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,00"
+    "preco": 3.2
   },
   {
     "id": 43,
-    "nome": "Croissant com Doce",
-    "nome_en": "Croissant with Jam",
+    "nome": "Croissant Misto",
+    "nome_en": "Ham and Cheese Croissant",
     "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
+    "categoria_en": "Croissants",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,20"
+    "preco": 3
   },
   {
     "id": 44,
-    "nome": "Croissant com Doce de Ovo",
-    "nome_en": "Croissant with Egg Spread",
+    "nome": "Croissant com Doce",
+    "nome_en": "Croissant with Jam",
     "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
+    "categoria_en": "Croissants",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,50"
+    "preco": 3.2
   },
   {
     "id": 45,
-    "nome": "Croissant com Nutella e Morangos",
-    "nome_en": "Croissant with Nutella and Strawberries",
+    "nome": "Croissant com Doce de Ovo",
+    "nome_en": "Croissant with Egg Spread",
     "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
+    "categoria_en": "Croissants",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,50"
+    "preco": 3.5
   },
   {
     "id": 46,
+    "nome": "Croissant com Nutella e Morangos",
+    "nome_en": "Croissant with Nutella and Strawberries",
+    "categoria": "Pastelaria",
+    "categoria_en": "Croissants",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 3.5
+  },
+  {
+    "id": 47,
     "nome": "Meia Torrada",
     "nome_en": "Half Toasted Bread with Butter",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,50"
+    "preco": 1.5
   },
   {
-    "id": 47,
+    "id": 48,
     "nome": "Torrada",
     "nome_en": "Toasted Bread with Butter",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,10"
+    "preco": 2.1
   },
   {
-    "id": 48,
+    "id": 49,
     "nome": "Tosta de Queijo",
     "nome_en": "Cheese Toast",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,50"
+    "preco": 3.5
   },
   {
-    "id": 49,
+    "id": 50,
     "nome": "Tosta de Fiambre",
     "nome_en": "Ham Toast",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,50"
+    "preco": 3.5
   },
   {
-    "id": 50,
+    "id": 51,
     "nome": "Tosta Mista",
     "nome_en": "Ham and Cheese Toast",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,90"
+    "preco": 3.9
   },
   {
-    "id": 51,
+    "id": 52,
     "nome": "Tosta Queijo e Cebola",
     "nome_en": "Cheese and Onion Toast",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,90"
+    "preco": 3.9
   },
   {
-    "id": 52,
+    "id": 53,
     "nome": "Tosta de Presunto",
     "nome_en": "Prosciutto Toast",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,50"
+    "preco": 5.5
   },
   {
-    "id": 53,
+    "id": 54,
+    "nome": "Tosta de Chouriço",
+    "nome_en": "Chorizo Toast",
+    "categoria": "Tostas e Torradas",
+    "categoria_en": "Toasts and Bread",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 5.5
+  },
+  {
+    "id": 55,
     "nome": "Tosta de Atum",
     "nome_en": "Tuna Toast",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 54,
+    "id": 56,
     "nome": "Tosta de Frango",
     "nome_en": "Chicken Toast",
     "categoria": "Tostas e Torradas",
     "categoria_en": "Toasts and Bread",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 55,
+    "id": 57,
     "nome": "Baguete de Queijo",
     "nome_en": " Cheese Baguette",
     "categoria": "Baguetes",
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,70"
+    "preco": 3.7
   },
   {
-    "id": 56,
+    "id": 58,
     "nome": "Baguete de Fiambre",
     "nome_en": "  Ham Baguette",
     "categoria": "Baguetes",
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,70"
+    "preco": 3.7
   },
   {
-    "id": 57,
+    "id": 59,
     "nome": "Baguete Mista",
     "nome_en": "Cheese and Ham Baguette",
     "categoria": "Baguetes",
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,90"
+    "preco": 3.9
   },
   {
-    "id": 58,
+    "id": 60,
     "nome": "Baguete de Presunto e Queijo",
     "nome_en": "Cheese and Prosciutto Baguette",
     "categoria": "Baguetes",
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 59,
+    "id": 61,
     "nome": "Baguete de Atum",
     "nome_en": "Tuna Baguette",
     "categoria": "Baguetes",
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 60,
+    "id": 62,
     "nome": "Baguete de Frango",
     "nome_en": "Chicken Baguette",
     "categoria": "Baguetes",
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 61,
+    "id": 63,
     "nome": "Salada de Atum",
     "nome_en": "Tuna Salad",
     "categoria": "Saladas",
     "categoria_en": "Salads",
     "ingredientes": "Alface, Tomate, Cebola, Pepino e Atum",
     "ingredientes_en": "Lettuce, Tomato, Cucumber and Tuna",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 62,
+    "id": 64,
     "nome": "Salada de Frango",
     "nome_en": "Chicken Salad",
     "categoria": "Saladas",
     "categoria_en": "Salads",
     "ingredientes": "Alface, Tomate, Cebola, Pepino e Frango",
     "ingredientes_en": "Lettuce, Tomato, Cucumber and Chicken",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 63,
+    "id": 65,
     "nome": "Pequeno Almoço Inglês",
     "nome_en": "English Breakfast",
     "categoria": "Pequeno Almoço Inglês",
     "categoria_en": "English Breakfast",
     "ingredientes": "1 Bacon,1 Salsicha,1 Ovo, ½ Torrada e Feijão com Molho de Tomate",
     "ingredientes_en": "1 Bacon, 1 Sausage, 1Egg, ½ Toasted Bread with Butter and Beans with Tomato Sauce",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 64,
+    "id": 66,
     "nome": "Pequeno Almoço Inglês Duplo",
     "nome_en": "Double English Breakfast",
     "categoria": "Pequeno Almoço Inglês",
     "categoria_en": "English Breakfast",
     "ingredientes": "2 Bacons, 2 Salsichas, 2 Ovos, 1 Torrada e Feijão com Molho de Tomate",
     "ingredientes_en": "2 Bacon, 2 Sausages, 2 Eggs, 1 Toasted Bread with Butter and Beans with Tomato Sauce",
-    "preco": "8,90"
+    "preco": 8.9
   },
   {
-    "id": 65,
+    "id": 67,
     "nome": "Ovos Mexidos",
     "nome_en": "Scrambled Eggs",
     "categoria": "Pequeno Almoço Inglês",
     "categoria_en": "English Breakfast",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
-    "id": 66,
+    "id": 68,
     "nome": "Clássico",
     "nome_en": "Classic",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
     "ingredientes": "Pão, Hambúrguer, Alface e Tomate",
     "ingredientes_en": "Burger Bread, Burger, Lettuce and Tomato",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 67,
+    "id": 69,
     "nome": "Bacon Burguer",
     "nome_en": "Bacon Burger",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
     "ingredientes": "Pão, Hambúrguer, Alface, Tomate, Queijo e  Bacon",
     "ingredientes_en": "Burger Bread, Burger, Lettuce ,Tomato, Cheese and Bacon",
-    "preco": "10,90"
+    "preco": 10.9
   },
   {
-    "id": 68,
+    "id": 70,
     "nome": "Burguer Bacon Queijo e Ovo",
     "nome_en": "Burger with Bacon, Cheese, and Egg",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
     "ingredientes": "Pão, Hambúrguer, Alface,Tomate, Queijo, Bacon e Ovo",
     "ingredientes_en": "Burger Bread, Burger, Lettuce ,Tomato, Cheese, Bacon and Egg",
-    "preco": "11,90"
+    "preco": 11.9
   },
   {
-    "id": 69,
+    "id": 71,
+    "nome": "Black Angus Burguer ",
+    "nome_en": "Black Angus Burger   ",
+    "categoria": "Hambúrgueres",
+    "categoria_en": "Burgers",
+    "ingredientes": "Pão, Black Angus Hambúrguer, Alface e Tomate",
+    "ingredientes_en": "Burger Bread, Burger, Lettuce and Tomato",
+    "preco": 11.9
+  },
+  {
+    "id": 72,
     "nome": "Bacon Black Angus Burguer",
     "nome_en": "Bacon Black Angus Burger",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
     "ingredientes": "Pão, Black Angus Hambúrguer,Alface, Tomate, Queijo e Bacon",
     "ingredientes_en": "Burger Bread, Black Angus Burger, Lettuce ,Tomato, Cheese and Bacon",
-    "preco": "13,90"
+    "preco": 13.9
   },
   {
-    "id": 70,
+    "id": 73,
     "nome": "Black Angus Burguer Bacon Queijo e Ovo",
     "nome_en": "Black Angus Burger with Bacon, Cheese, and Egg",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
     "ingredientes": "Pão, Black Angus Hambúrguer,Alface, Tomate,  Queijo, Bacon e Ovo",
     "ingredientes_en": "Burger Bread, Black Angus Burger, Lettuce ,Tomato, Cheese, Bacon and Egg",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 71,
+    "id": 74,
     "nome": "Dose Batatas",
     "nome_en": "Fries Portion",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,90"
+    "preco": 2.9
   },
   {
-    "id": 72,
+    "id": 75,
     "nome": "Batatas Acepipe",
     "nome_en": "Acepipe Fries",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
     "ingredientes": "Batatas Fritas, Cebola Crocante e Molho de Queijo Cheddar",
     "ingredientes_en": "Fries, Crunchy Onion and Cheddar Cheese Sauce",
-    "preco": "3,90"
+    "preco": 3.9
   },
   {
-    "id": 73,
+    "id": 76,
     "nome": "Bacon Roll",
     "nome_en": "Bacon roll",
     "categoria": "Bacon Rolls",
     "categoria_en": "Bacon Rolls",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 74,
+    "id": 77,
     "nome": "Bacon e Ovo",
     "nome_en": "Bacon and Egg",
     "categoria": "Bacon Rolls",
     "categoria_en": "Bacon Rolls",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,50"
+    "preco": 5.5
   },
   {
-    "id": 75,
+    "id": 78,
     "nome": "Bacon Queijo e Ovo",
     "nome_en": "Bacon, Cheese and Egg",
     "categoria": "Bacon Rolls",
     "categoria_en": "Bacon Rolls",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 76,
+    "id": 79,
     "nome": "Tábua de Enchidos Pequena",
     "nome_en": "Small Charcuterie Board",
     "categoria": "Tapas",
     "categoria_en": "Tapas",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 77,
+    "id": 80,
     "nome": "Tábua de Queijos Pequena",
     "nome_en": "Small Cheese Board",
     "categoria": "Tapas",
     "categoria_en": "Tapas",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 78,
+    "id": 81,
     "nome": "Tábua Mista de Queijos e Enchidos Pequena",
     "nome_en": "Small Cheese and Charcuterie Board",
     "categoria": "Tapas",
     "categoria_en": "Tapas",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "15,90"
+    "preco": 15.9
   },
   {
-    "id": 79,
+    "id": 82,
     "nome": "Tábua de Enchidos Grande",
     "nome_en": "Large Charcuterie Board",
     "categoria": "Tapas",
     "categoria_en": "Tapas",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "16,90"
+    "preco": 16.9
   },
   {
-    "id": 80,
+    "id": 83,
     "nome": "Tábua de Queijos Grande",
     "nome_en": "Large Cheese Board",
     "categoria": "Tapas",
     "categoria_en": "Tapas",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "16,90"
+    "preco": 16.9
   },
   {
-    "id": 81,
+    "id": 84,
     "nome": "Tábua Mista de Queijos e Enchidos Grande",
     "nome_en": "Large Cheese and Charcuterie Board",
     "categoria": "Tapas",
     "categoria_en": "Tapas",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "18,90"
+    "preco": 18.9
   },
   {
-    "id": 82,
+    "id": 85,
     "nome": "Chouriço Assado",
     "nome_en": "Roasted Chourizo",
     "categoria": "Tapas",
     "categoria_en": "Tapas",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "8,90"
-  },
-  {
-    "id": 83,
-    "nome": "Água sem Gás",
-    "nome_en": "Still Water",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "1,50"
-  },
-  {
-    "id": 84,
-    "nome": "Água com Gás",
-    "nome_en": "Sparkling Water",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "1,80"
-  },
-  {
-    "id": 85,
-    "nome": "Água com Gás (Sabor)",
-    "nome_en": "Flavored Sparkling Water",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "1,90"
+    "preco": 8.9
   },
   {
     "id": 86,
-    "nome": "Água Tónica",
-    "nome_en": "Tonic Water",
+    "nome": "Água sem Gás (50CL)",
+    "nome_en": "Still Water (50CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 1.5
   },
   {
     "id": 87,
-    "nome": "Néctar",
-    "nome_en": "Nectar Juice",
+    "nome": "Água com Gás (25CL)",
+    "nome_en": "Sparkling Water (25CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,80"
+    "preco": 1.8
   },
   {
     "id": 88,
+    "nome": "Água com Gás com Sabor (25CL)",
+    "nome_en": "Flavored Sparkling Water (25CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 1.9
+  },
+  {
+    "id": 89,
+    "nome": "Água Tónica (20CL)",
+    "nome_en": "Tonic Water (20CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 2.2
+  },
+  {
+    "id": 90,
+    "nome": "Néctar (20CL)",
+    "nome_en": "Nectar Juice (20CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 1.8
+  },
+  {
+    "id": 91,
     "nome": "Sumo de Ananás ou Maçã (Copo)",
     "nome_en": "Pineapple or Apple Juice (By the Glass)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,80"
-  },
-  {
-    "id": 89,
-    "nome": "Refrigerantes de Lata",
-    "nome_en": "Soft Drinks",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "2,50"
-  },
-  {
-    "id": 90,
-    "nome": "Imperial",
-    "nome_en": "Draft Beer",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "2,00"
-  },
-  {
-    "id": 91,
-    "nome": "Tango",
-    "nome_en": "Tango",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 1.8
   },
   {
     "id": 92,
+    "nome": "Refrigerantes de Lata (33CL)",
+    "nome_en": "Soft Drinks (33CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 2.5
+  },
+  {
+    "id": 93,
+    "nome": "Imperial (20CL)",
+    "nome_en": "Draft Beer (20CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 2
+  },
+  {
+    "id": 94,
+    "nome": "Tango (20CL)",
+    "nome_en": "Tango (20CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 2.2
+  },
+  {
+    "id": 95,
     "nome": "Shandy (0.20CL)",
     "nome_en": "Shandy (0.20CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
-  },
-  {
-    "id": 93,
-    "nome": "Caneca",
-    "nome_en": "Beer Paint",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "3,60"
-  },
-  {
-    "id": 94,
-    "nome": "Caneca Shandy",
-    "nome_en": "Shandy Paint",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "3,80"
-  },
-  {
-    "id": 95,
-    "nome": "Cerveja Garrafa (0.33Cl)",
-    "nome_en": "Beer Bottle (0.33Cl)",
-    "categoria": "Bebidas",
-    "categoria_en": "Drinks",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 2.2
   },
   {
     "id": 96,
-    "nome": "Cerveja Garrafa (0% Álcool)",
-    "nome_en": "Non-Alcoholic Beer Bottle",
+    "nome": "Caneca (50CL)",
+    "nome_en": "Beer Paint (50CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 3.6
   },
   {
     "id": 97,
-    "nome": "Heineken",
-    "nome_en": "Heineken",
+    "nome": "Caneca Shandy (50CL)",
+    "nome_en": "Shandy Paint (50CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,20"
+    "preco": 3.8
   },
   {
     "id": 98,
-    "nome": "Redbull",
-    "nome_en": " Redbull (Energy Drink)",
+    "nome": "Cerveja Garrafa (33CL)",
+    "nome_en": "Beer Bottle (33CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,90"
+    "preco": 2.2
   },
   {
     "id": 99,
-    "nome": "Somersby",
-    "nome_en": "Somersby (Cider)",
+    "nome": "Cerveja Garrafa 0% Álcool (33CL)",
+    "nome_en": "Non-Alcoholic Beer Bottle (33CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,90"
+    "preco": 2.2
   },
   {
     "id": 100,
-    "nome": "Smirnoff Ice",
-    "nome_en": "Smirnoff Ice",
+    "nome": "Heineken (25CL)",
+    "nome_en": "Heineken (25CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,90"
+    "preco": 2.2
   },
   {
     "id": 101,
+    "nome": "Redbull (25CL)",
+    "nome_en": " Redbull Energy Drink (25CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 3.9
+  },
+  {
+    "id": 102,
+    "nome": "Somersby (33CL)",
+    "nome_en": "Somersby Cider (33CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 3.9
+  },
+  {
+    "id": 103,
+    "nome": "Smirnoff Ice (27.5CL)",
+    "nome_en": "Smirnoff Ice (27.5CL)",
+    "categoria": "Bebidas",
+    "categoria_en": "Drinks",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 4.9
+  },
+  {
+    "id": 104,
     "nome": "Sumo Natural de Fruta",
     "nome_en": "Natural Fruit Juice",
     "categoria": "Sumos Naturais de Fruta",
     "categoria_en": "Natural Fruit Juices",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 102,
+    "id": 105,
     "nome": "Limonada",
     "nome_en": "Freshly Squeezed Lemonade",
     "categoria": "Sumos Naturais de Fruta",
     "categoria_en": "Natural Fruit Juices",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,50"
+    "preco": 2.5
   },
   {
-    "id": 103,
+    "id": 106,
     "nome": "Sumo de Laranja",
     "nome_en": "Freshly Squeezed Orange juice",
     "categoria": "Sumos Naturais de Fruta",
     "categoria_en": "Natural Fruit Juices",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,90"
+    "preco": 2.9
   },
   {
-    "id": 104,
+    "id": 107,
     "nome": "Sumo de Laranja com Álcool",
     "nome_en": "Alcoholic Orange Juice",
     "categoria": "Sumos Naturais de Fruta",
     "categoria_en": "Natural Fruit Juices",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 105,
+    "id": 108,
     "nome": "Morning Glory",
     "nome_en": "Morning Glory",
     "categoria": "Smoothies",
     "categoria_en": "Smoothies",
     "ingredientes": "Espinafre, Ananás, Banana, Manga",
     "ingredientes_en": "Spinach, Pineapple, Banana, Mango",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 106,
+    "id": 109,
     "nome": "Ice Coffee",
     "nome_en": "Iced Coffee",
     "categoria": "Smoothies",
     "categoria_en": "Smoothies",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 107,
+    "id": 110,
     "nome": "Tropical Tango",
     "nome_en": "Tropical Tango",
     "categoria": "Smoothies",
     "categoria_en": "Smoothies",
     "ingredientes": "Ananás, Kiwi, Manga, Melão",
     "ingredientes_en": "Pineapple, Kiwi, Mango, Melon",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 108,
+    "id": 111,
     "nome": "Mad Berries",
     "nome_en": "Mad Berries",
     "categoria": "Smoothies",
     "categoria_en": "Smoothies",
     "ingredientes": "Amora, Morango e Framboesa",
     "ingredientes_en": "Blackberry, Strawberry and Raspberry",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 109,
+    "id": 112,
     "nome": "Tropical Delight",
     "nome_en": "Tropical Delight",
     "categoria": "Smoothies",
     "categoria_en": "Smoothies",
     "ingredientes": "Manga, Melão e Maracujá",
     "ingredientes_en": "Mango, Melon and Passion Fruit",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 110,
+    "id": 113,
     "nome": "Copo de Vinho",
     "nome_en": "Wine Glass",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,20"
+    "preco": 3.2
   },
   {
-    "id": 111,
+    "id": 114,
     "nome": "Sangria de Vinho Tinto",
     "nome_en": "Red Wine Sangria",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 112,
+    "id": 115,
     "nome": "Sangria de Vinho Branco",
     "nome_en": "White Wine Sangria",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 113,
+    "id": 116,
     "nome": "Vinhas da Murça (Tinto)",
     "nome_en": "Vinhas da Murça (Red Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 114,
+    "id": 117,
     "nome": "Vinhas da Murça (Branco)",
     "nome_en": "Vinhas da Murça (White Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 115,
+    "id": 118,
     "nome": "Vinhas da Murça (Rosé)",
     "nome_en": "Vinhas da Murça (Rose Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 116,
+    "id": 119,
     "nome": "Mateus Rosé",
     "nome_en": "Mateus Rosé (Rose Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 117,
+    "id": 120,
     "nome": "Loios (Branco)",
     "nome_en": "Loios (White Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 118,
+    "id": 121,
     "nome": "Loios (Tinto)",
     "nome_en": "Loios (Red Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 119,
+    "id": 122,
     "nome": "Meia Encosta (Tinto)",
     "nome_en": "Meia Encosta (Red Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 120,
+    "id": 123,
     "nome": "Meia Encosta (Branco)",
     "nome_en": "Meia Encosta (White Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 121,
+    "id": 124,
     "nome": "Foral de Portimão (Branco)",
     "nome_en": "Foral de Portimão (White Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 122,
+    "id": 125,
     "nome": "Planalto Seco (Branco)",
     "nome_en": "Planalto (Dry White)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "16,90"
+    "preco": 16.9
   },
   {
-    "id": 123,
+    "id": 126,
     "nome": "Casal Garcia (Verde)",
     "nome_en": "Casal Garcia (Green Wine)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "12,90"
+    "preco": 12.9
   },
   {
-    "id": 124,
+    "id": 127,
     "nome": "Fita Azul (Espumante Bruto)",
     "nome_en": "Fita Azul (Sparkling Wine Brut)",
     "categoria": "Vinhos",
     "categoria_en": "Wines",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "18,50"
-  },
-  {
-    "id": 125,
-    "nome": "Licores",
-    "nome_en": "Liqueurs",
-    "categoria": "Bebidas Espirituosas",
-    "categoria_en": "Alcoholic Beverages",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "2,50"
-  },
-  {
-    "id": 126,
-    "nome": "Amarguinha",
-    "nome_en": "Amarguinha (Almond Liqueur)",
-    "categoria": "Bebidas Espirituosas",
-    "categoria_en": "Alcoholic Beverages",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "2,50"
-  },
-  {
-    "id": 127,
-    "nome": "Aguardente",
-    "nome_en": "Aguardente",
-    "categoria": "Bebidas Espirituosas",
-    "categoria_en": "Alcoholic Beverages",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "3,00"
+    "preco": 18.5
   },
   {
     "id": 128,
-    "nome": "Vinho do Porto",
-    "nome_en": "Port Wine",
+    "nome": "Licores (2CL)",
+    "nome_en": "Liqueurs (2CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,50"
+    "preco": 2.5
   },
   {
     "id": 129,
-    "nome": "Triple Sec",
-    "nome_en": "Triple Sec Liqueur",
+    "nome": "Amarguinha (5CL)",
+    "nome_en": "Amarguinha Almond Liqueur (5CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 2.5
   },
   {
     "id": 130,
-    "nome": "Cointreau",
-    "nome_en": "Cointreau",
+    "nome": "Aguardente (5CL)",
+    "nome_en": "Aguardente (5CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
     "id": 131,
-    "nome": "Brandy",
-    "nome_en": "Brandy",
+    "nome": "Vinho do Porto (2CL)",
+    "nome_en": "Port Wine (2CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 2.5
   },
   {
     "id": 132,
-    "nome": "Whisky",
-    "nome_en": "Whiskey",
+    "nome": "Triple Sec (5CL)",
+    "nome_en": "Triple Sec Liqueur (5CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
     "id": 133,
-    "nome": "Rum",
-    "nome_en": "Rum",
+    "nome": "Cointreau (5CL)",
+    "nome_en": "Cointreau (5CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
     "id": 134,
-    "nome": "Tequila",
-    "nome_en": "Tequila",
+    "nome": "Brandy (5CL)",
+    "nome_en": "Brandy (5CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
     "id": 135,
-    "nome": "Vodka",
-    "nome_en": "Vodka",
+    "nome": "Whisky (5CL)",
+    "nome_en": "Whiskey (5CL)",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
     "id": 136,
+    "nome": "Rum (5CL)",
+    "nome_en": "Rum (5CL)",
+    "categoria": "Bebidas Espirituosas",
+    "categoria_en": "Alcoholic Beverages",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 4.5
+  },
+  {
+    "id": 137,
+    "nome": "Tequila (5CL)",
+    "nome_en": "Tequila (5CL)",
+    "categoria": "Bebidas Espirituosas",
+    "categoria_en": "Alcoholic Beverages",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 4.5
+  },
+  {
+    "id": 138,
+    "nome": "Vodka (5CL)",
+    "nome_en": "Vodka (5CL)",
+    "categoria": "Bebidas Espirituosas",
+    "categoria_en": "Alcoholic Beverages",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": 4.5
+  },
+  {
+    "id": 139,
     "nome": "Redbull Vodka",
     "nome_en": "Vodka Redbull",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 137,
+    "id": 140,
     "nome": "Gin",
     "nome_en": "Gin",
     "categoria": "Bebidas Espirituosas",
     "categoria_en": "Alcoholic Beverages",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,00"
+    "preco": 5
   },
   {
-    "id": 138,
+    "id": 141,
     "nome": "Aperol Spritz",
     "nome_en": "Aperol Spritz",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 139,
+    "id": 142,
     "nome": "Gin Tónico",
     "nome_en": "Gin and Tonic",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 140,
+    "id": 143,
     "nome": "Mojito",
     "nome_en": "Mojito",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 141,
+    "id": 144,
     "nome": "Caipirinha",
     "nome_en": "Caipirinha",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 142,
+    "id": 145,
     "nome": "Caipirão",
     "nome_en": "Caipirão",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 143,
+    "id": 146,
     "nome": "Caipiroska",
     "nome_en": "Caipiroska",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 144,
+    "id": 147,
     "nome": "Pinacolada",
     "nome_en": "Pinacolada",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 145,
+    "id": 148,
     "nome": "Cuba Libre",
     "nome_en": "Cuba Libre",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 146,
+    "id": 149,
     "nome": "Tequila Sunrise",
     "nome_en": "Tequila Sunrise",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 147,
+    "id": 150,
     "nome": "Sex on The Beach",
     "nome_en": "Sex on The Beach",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 148,
+    "id": 151,
     "nome": "Smirnoff Berry Breeze",
     "nome_en": "Smirnoff Berry Breeze",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "3,50"
+    "preco": 7.5
   },
   {
-    "id": 149,
+    "id": 152,
     "nome": "Somersby Tropical Twist",
     "nome_en": "Somersby Tropical Twist",
     "categoria": "Cocktails",
     "categoria_en": "Cocktails",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,00"
+    "preco": 7.5
   },
   {
-    "id": 150,
+    "id": 153,
     "nome": "Granizado Pequeno",
     "nome_en": "Small Slushy",
     "categoria": "Granizados",
     "categoria_en": "Slushies",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "6,00"
+    "preco": 3
   },
   {
-    "id": 151,
+    "id": 154,
     "nome": "Granizado Grande",
     "nome_en": "Large Slushy",
     "categoria": "Granizados",
     "categoria_en": "Slushies",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "8,00"
+    "preco": 5
   },
   {
-    "id": 152,
+    "id": 155,
     "nome": "Granizado Pequeno com Álcool",
     "nome_en": "Small alcoholic Slushy",
     "categoria": "Granizados",
     "categoria_en": "Slushies",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,90"
+    "preco": 6
   },
   {
-    "id": 153,
+    "id": 156,
     "nome": "Granizado Grande com Álcool",
     "nome_en": "Large Alcoholic Slushy",
     "categoria": "Granizados",
     "categoria_en": "Slushies",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "4,90"
+    "preco": 8
   },
   {
-    "id": 154,
+    "id": 157,
     "nome": "Batido de Baunilha",
     "nome_en": "Vanilla Milkshake",
     "categoria": "Batidos",
     "categoria_en": "Milkshakes",
     "ingredientes": "1 Bola de Gelado de Baunilha, Topping de Baunilha, Leite e Chantilly",
     "ingredientes_en": "1 Scoop of Vanilla Ice Cream, Vanilla Topping, Milk and Whipped Cream",
-    "preco": "5,50"
+    "preco": 5.5
   },
   {
-    "id": 155,
+    "id": 158,
     "nome": "Batido de Chocolate",
     "nome_en": "Chocolate Milkshake",
     "categoria": "Batidos",
     "categoria_en": "Milkshakes",
     "ingredientes": "1 Bola de Gelado de Chocolate, Topping de Chocolate, Leite e Chantilly",
     "ingredientes_en": "1 Scoop of Chocolate Ice Cream, Chocolate Topping, Milk and Whipped Cream",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 156,
+    "id": 159,
     "nome": "Batido de Morango e Banana",
     "nome_en": "Strawberry and Banana Milkshake",
     "categoria": "Batidos",
     "categoria_en": "Milkshakes",
     "ingredientes": "1 Bola de Gelado de Baunilha, Morangos, Banana, Leite e Chantilly",
     "ingredientes_en": "1 Scoop of Vanilla Ice Cream, Banana and Strawberries, Milk and Whipped Cream",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 157,
+    "id": 160,
     "nome": "Batido de Nutella",
     "nome_en": "Nutella Milkshake",
     "categoria": "Batidos",
     "categoria_en": "Milkshakes",
     "ingredientes": "1 Bola de Gelado de Baunilha, Nutella, Topping de Chocolate, Leite e Chantilly",
     "ingredientes_en": "1 Scoop of Vanilla  Ice Cream, Nutella, Milk and Whipped Cream",
-    "preco": "5,90"
+    "preco": 5.9
   },
   {
-    "id": 158,
+    "id": 161,
     "nome": "Batido de Oreo",
     "nome_en": "Oreo Milkshake",
     "categoria": "Batidos",
     "categoria_en": "Milkshakes",
     "ingredientes": "1 Bola de Gelado de Baunilha, Bolachas Oreo, Topping de Chocolate, Leite e Chantilly",
     "ingredientes_en": "1 Scoop of Vanilla Ice Cream, Oreo Cookies, Chocolate Topping, Milk and Whipped Cream",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 159,
+    "id": 162,
     "nome": "Batido de Kinder Bueno",
     "nome_en": "Kinder Bueno Milkshake",
     "categoria": "Batidos",
     "categoria_en": "Milkshakes",
     "ingredientes": "1 Bola de Gelado de Chocolate, Kinder Bueno, Nutella, Leite e Chantilly",
     "ingredientes_en": "1 Scoop of Chocolate Ice Cream, Kinder Bueno, Nutella, Milk and Whipped Cream",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 160,
+    "id": 163,
     "nome": "Batido Acepipe",
     "nome_en": "Acepipe Milkshake",
     "categoria": "Batidos",
     "categoria_en": "Milkshakes",
     "ingredientes": "1 Bola de Gelado de Chocolate, Topping de Chocolate, Topping de Caramelo, Leite e Chantilly",
     "ingredientes_en": "1 Scoop of Chocolate Ice Cream, Chocolate Topping, Caramel Topping, Milk and Whipped Cream",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 161,
+    "id": 164,
     "nome": "Acepipe Mix (2 Pax)",
     "nome_en": "Acepipe Mix (For 2 Pax)",
     "categoria": "Acepipe Especial",
     "categoria_en": "Acepipe Special",
     "ingredientes": "4 Mini Crepes, 4 Mini Waffles, 4 Mini Panquecas, Nutella, Amêndoa Torrada, Chantilly e Açúcar em Pó",
     "ingredientes_en": "4 Mini Crepes, 4 Mini Waffles, 4 Mini Pancakes, Nutella, Toasted Almond, Whipped Cream and Powder Sugar",
-    "preco": "14,90"
+    "preco": 14.9
   },
   {
-    "id": 162,
+    "id": 165,
     "nome": "Acepipe Special Summer (2 Pax)",
     "nome_en": "Acepipe Special Summer (For 2 Pax)",
     "categoria": "Acepipe Especial",
     "categoria_en": "Acepipe Special",
     "ingredientes": "4 Mini Crepes, 4 Mini Waffles, 4 Mini Panquecas, Nutella, Misto de Frutas, Chantilly e Açúcar em Pó",
     "ingredientes_en": "4 Mini Crepes, 4 Mini Waffles, 4 Mini Pancakes, Nutella, Mix of Fruits, Whipped Cream and Powder Sugar",
-    "preco": "16,90"
+    "preco": 16.9
   },
   {
-    "id": 163,
+    "id": 166,
     "nome": "Acepipe Choco Mix (2 Pax)",
     "nome_en": "Acepipe Chocolate Mix (For 2 Pax)",
     "categoria": "Acepipe Especial",
     "categoria_en": "Acepipe Special",
     "ingredientes": "4 Mini Crepes, 4 Mini Waffles, 4 Mini Panquecas, Nutella, Misto de Chocolates, Chantilly e Açúcar em Pó",
     "ingredientes_en": "4 Mini Crepes, 4 Mini Waffles, 4 Mini Pancakes, Nutella, Mix of Chocolates, Whipped Cream and Powder Sugar",
-    "preco": "16,90"
+    "preco": 16.9
   },
   {
-    "id": 164,
+    "id": 167,
     "nome": "Banana Split",
     "nome_en": "Banana Split",
     "categoria": "Taças de Gelado",
     "categoria_en": "Ice Cream Bowls",
     "ingredientes": "Banana, 2 Bolas de Gelado, Topping de Chocolate, 1 Bolacha e Chantilly",
     "ingredientes_en": "Banana, 1 Scoop of Vanilla Ice Cream, 1 Scoop of Strawberry Ice Cream, Chocolate Topping, 1 Cookie and Whipped Cream",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 165,
+    "id": 168,
     "nome": "Caramel Sunset",
     "nome_en": "Caramel Sunset",
     "categoria": "Taças de Gelado",
     "categoria_en": "Ice Cream Bowls",
     "ingredientes": "1 Bola de Gelado de Baunilha,1 Bola de Gelado de Caramelo, Topping de Caramelo, Amêndoa Torrada, 1 Bolacha e Chantilly",
     "ingredientes_en": "1 Scoop of Vanilla Ice Cream,1 Scoop of Caramel Ice Cream , Caramel Topping, Toasted Almond, 1 Cookie and Whipped Cream",
-    "preco": "7,50"
+    "preco": 7.5
   },
   {
-    "id": 166,
+    "id": 169,
     "nome": "Taça de Frutas",
     "nome_en": "Fruit Bowl",
     "categoria": "Taças de Gelado",
     "categoria_en": "Ice Cream Bowls",
     "ingredientes": "1 Bola de Gelado de Baunilha,1 Bola de Gelado de Morango, Misto de Frutas, Topping de Morango, 1 Bolacha e Chantilly",
     "ingredientes_en": "1 Scoop of Vanilla Ice Cream,1 Scoop of Strawberry Ice Cream , Mix of Fruits, Strawberry Topping, 1 Cookie and Whipped Cream",
-    "preco": "8,50"
+    "preco": 8.5
   },
   {
-    "id": 167,
+    "id": 170,
     "nome": "Taça Oreo",
     "nome_en": "Oreo Bowl",
     "categoria": "Taças de Gelado",
     "categoria_en": "Ice Cream Bowls",
     "ingredientes": "1 Bola de Gelado de Baunilha,1 Bola de Gelado de Cookie & Cream , Mini Bolachas Oreo, Topping de Chocolate, 1 Bolacha e Chantilly",
     "ingredientes_en": "1Scoop of Vanilla Ice Cream, 1 Scoop of Cookies and Cream Ice Cream, Mini Oreo Cookies, Chocolate Topping, 1 Cookie and Whipped Cream",
-    "preco": "8,50"
+    "preco": 8.5
   },
   {
-    "id": 168,
+    "id": 171,
     "nome": "Taça Kinder Bueno",
     "nome_en": "Kinder Bueno Bowl",
     "categoria": "Taças de Gelado",
     "categoria_en": "Ice Cream Bowls",
     "ingredientes": "1 Bola de Gelado de Baunilha, 1 Bola de Gelado de Chocolate e Avelã, Nutella, Kinder Bueno, Amêndoa Torrada, Bolacha e Chantilly",
     "ingredientes_en": "1 Scoop of Vanilla Ice Cream, 1 Scoop of Hazelnut and Chocolate Ice Cream, Nutella, Kinder Bueno, Toasted Almond, 1 Cookie and Whipped Cream",
-    "preco": "8,50"
+    "preco": 8.5
   },
   {
-    "id": 169,
+    "id": 172,
     "nome": "Construa a Sua Taça",
     "nome_en": "Make Your Own Bowl",
     "categoria": "Taças de Gelado",
     "categoria_en": "Ice Cream Bowls",
     "ingredientes": "2 Bolas de Gelado à Escolha, 1 Topping à Escolha, 1 Cobertura à Escolha, 1 Bolacha e Chantilly",
-    "ingredientes_en": "2 Scoops of Choice, 1 Liquid Topping of Choice, 1 Topping of Choice, 1 Cookie and Whipped Cream",
-    "preco": "8,50"
+    "ingredientes_en": "2 Scoops of Ice Cream of Choice, 1 Liquid Topping of Choice, 1 Topping of Choice, 1 Cookie and Whipped Cream",
+    "preco": 8.5
   },
   {
-    "id": 170,
+    "id": 173,
     "nome": "Crepe Açucar e Canela",
-    "nome_en": "Sugar and cinnamon Crepe",
+    "nome_en": "Sugar and Cinnamon Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Açucar em Pó e Canela",
     "ingredientes_en": "Crepe, Powder Sugar and Cinammon",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
-    "id": 171,
+    "id": 174,
     "nome": "Crepe Nutella ou Topping",
     "nome_en": "Nutella or Topping Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Nutella ou Topping à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Crepe, Nutella or Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 172,
+    "id": 175,
     "nome": "Crepe Nutella e Morangos",
     "nome_en": "Nutella and Strawberry Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Nutella, Morangos, Chantilly e Açúcar em Pó",
-    "ingredientes_en": "Crepe, Nutella or Topping of Choice, Strawberries, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "ingredientes_en": "Crepe, Nutella, Strawberries, Whipped Cream and Powder Sugar",
+    "preco": 6.9
   },
   {
-    "id": 173,
+    "id": 176,
     "nome": "Crepe Banana e Chocolate",
     "nome_en": "Banana and Chocolate Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Banana, Topping de Chocolate, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Crepe, Banana, Chocolate Topping, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 174,
+    "id": 177,
     "nome": "Crepe Mel e Nozes",
     "nome_en": "Honey and Nuts Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Mel, Nozes, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Crepe, Honey, Nuts, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 175,
+    "id": 178,
     "nome": "Crepe Frutas e Topping",
     "nome_en": "Fruits and Topping Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Misto de Frutas, 1 Topping à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Crepe, Mix of Fruits, 1 Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 176,
+    "id": 179,
     "nome": "Crepe Oreo",
     "nome_en": "Oreo Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Topping de Chocolate, Mini Bolachas Oreo, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Crepe, Chocolate Topping, Mini Oreo Cookies, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 177,
+    "id": 180,
     "nome": "Crepe Kinder Bueno",
     "nome_en": "Kinder Bueno Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Nutella, Kinder Bueno, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Crepe, Nutella, Kinder Bueno, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 178,
+    "id": 181,
     "nome": "Crepe Suzette",
     "nome_en": "Crepe Suzette",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, Licor de Laranja, 1 Bola de Gelado de Baunillha, Raspa de Laranja e Hortelã",
-    "ingredientes_en": "Crepe, Orange Liqueur, 1 Scoops of Vanilla Ice Cream, Orange Zest and Mint",
-    "preco": "9,90"
+    "ingredientes_en": "Crepe, Orange Liqueur, 1 Scoop of Vanilla Ice Cream, Orange Zest and Mint",
+    "preco": 9.9
   },
   {
-    "id": 179,
+    "id": 182,
     "nome": "Crepe Acepipe",
     "nome_en": "Acepipe Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe de Chocolate, Misto de Frutas, Amêndoa Torrada ,1 Bola de Gelado de Chocolate, 1 Bola de Gelado de Caramelo,  Topping de Chocolate, Topping de Caramelo, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Chocolate Crepe, Mix of Fruits, Toasted Almond, 1 Scoop of Chocolate Ice Cream, 1 Scoop of Caramel Ice Cream, Chocolate Topping, Caramel Topping, Whipped Cream and Powder Sugar",
-    "preco": "9,50"
+    "preco": 9.5
   },
   {
-    "id": 180,
+    "id": 183,
     "nome": "Construa o Seu Crepe",
     "nome_en": "Make Your Own Crepe",
     "categoria": "Crepes",
     "categoria_en": "Crepes",
     "ingredientes": "Crepe, 1 Chocolate à Escolha,1 Fruta à Escolha,1 Topping à Escolha, 1 Cobertura à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Crepe, 1 Chocolate of Choice, 1 Fruit of Choice, 1 Liquid Topping of Choice, 1 Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 181,
+    "id": 184,
     "nome": "Panquecas Açucar e Canela",
     "nome_en": "Sugar and Cinnamon Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Canela e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Cinammon and Powder Sugar",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
-    "id": 182,
+    "id": 185,
     "nome": "Panquecas Nutella ou Topping",
     "nome_en": "Nutella or Topping Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Nutella ou Topping à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Nutella or Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 183,
+    "id": 186,
     "nome": "Panquecas Nutella e Morangos",
     "nome_en": "Nutella and Strawberry Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Nutella, Morangos, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Nutella, Strawberries, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 184,
+    "id": 187,
     "nome": "Panquecas Banana e Chocolate",
     "nome_en": "Banana and Chocolate Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Banana, Topping de Chocolate, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Banana, Chocolate Topping, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 185,
+    "id": 188,
     "nome": "Panquecas Mel e Nozes",
     "nome_en": "Honey and Nuts Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Mel, Nozes, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Honey, Nuts, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 186,
+    "id": 189,
     "nome": "Panquecas de Frutas e Topping",
     "nome_en": "Fruits and Topping Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Misto de Frutas, 1 Topping à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Mix of Fruits, 1 Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 187,
+    "id": 190,
     "nome": "Panquecas Oreo",
     "nome_en": "Oreo Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Topping de Chocolate, Mini Bolachas Oreo, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Chocolate Topping, Mini Oreo Cookies, Whipped Cream, Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 188,
+    "id": 191,
     "nome": "Panquecas Kinder Bueno",
     "nome_en": "Kinder Bueno Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, Nutella, Kinder Bueno, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, Nutella, Kinder Bueno, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 189,
+    "id": 192,
     "nome": "Panquecas Acepipe",
     "nome_en": "Acepipe Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas de Chocolate, Misto de Frutas, Amêndoa Torrada, 1 Bola de Gelado de Chocolate, 1 Bola de Gelado de Caramelo, Topping de Chocolate, Topping de Caramelo, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Chocolate Pancakes, Mix of Fruits, Toasted Almond, 1 Scoop of Chocolate Ice Cream, 1 Scoop of Caramel Ice Cream, Chocolate Topping, Caramel Topping, Whipped Cream and Sugar Powder",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 190,
+    "id": 193,
     "nome": "Panqueca Tower",
     "nome_en": "Pancake Tower",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Torre de Panquecas , 1 Bola de Gelado à Escolha, Amêndoa Torrada, Topping à Escolha ou Nutella, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes Tower, 1 Scoop of Ice Cream of Choice, Toasted Almond, Topping of Choice or Nutella, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 191,
+    "id": 194,
     "nome": "Construa as Suas Panquecas",
     "nome_en": "Make Your Own Pancakes",
     "categoria": "Panquecas",
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas, 1 Chocolate à Escolha,1 Fruta à Escolha,1 Topping à Escolha 1 Cobertura à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Pancakes, 1 Chocolate of Choice, 1 Fruit of Choice, 1 Liquid Topping of Choice, 1 Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 192,
+    "id": 195,
     "nome": "Waffle Açucar e Canela",
     "nome_en": "Sugar and Cinnamon Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, Açucar em Pó e Canela",
     "ingredientes_en": "Waffle, Powder Sugar and Cinammon",
-    "preco": "4,50"
+    "preco": 4.5
   },
   {
-    "id": 193,
+    "id": 196,
     "nome": "Waffle Nutella ou Topping",
     "nome_en": "Nutella or Topping Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, Nutella ou Topping à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Waffle, Nutella or Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "4,90"
+    "preco": 4.9
   },
   {
-    "id": 194,
+    "id": 197,
     "nome": "Waffle Nutella e Morangos",
     "nome_en": "Nutella and Strawberries Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, Nutella, Morangos, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Waffle, Nutella, Strawberries, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 195,
+    "id": 198,
     "nome": "Waffle Banana e Chocolate",
     "nome_en": "Banana and Chocolate Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, Banana, Topping de Chocolate, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Waffle, Banana, Chocolate Topping, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 196,
+    "id": 199,
     "nome": "Waffle Mel e Nozes",
     "nome_en": "Honey and Nuts Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, Mel, Nozes, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Waffle, Honey, Nuts, Whipped Cream and Powder Sugar",
-    "preco": "6,90"
+    "preco": 6.9
   },
   {
-    "id": 197,
+    "id": 200,
     "nome": "Waffle Frutas e Topping",
     "nome_en": "Fruits and Topping Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
-    "ingredientes": "Waffle, Misto de Frutas, 1 Topping à Escolha, Chantilly e Açúcar em Pó",
-    "ingredientes_en": "Waffle ,Mix of Fruits, 1 Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "ingredientes": "Waffle, Misto de Frutas, 1Topping à Escolha, Chantilly e Açúcar em Pó",
+    "ingredientes_en": "Waffle, Mix of Fruits, 1 Topping of Choice, Whipped Cream and Powder Sugar",
+    "preco": 7.9
   },
   {
-    "id": 198,
+    "id": 201,
     "nome": "Waffle Oreo",
     "nome_en": "Oreo Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, Mini Bolacha de Oreo, Topping de Chocolate, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Waffle, Mini Oreo Cookies, Chocolate Topping, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 199,
+    "id": 202,
     "nome": "Waffle Kinder Bueno",
     "nome_en": "Kinder Bueno Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, Kinder Bueno, Nutella, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Waffle, Kinder Bueno, Nutella, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 200,
+    "id": 203,
     "nome": "Waffle Acepipe",
     "nome_en": "Acepipe Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
-    "ingredientes": "Waffle de Chocolate, 1 Bola de Gelado de Chocolate ou de Caramelo, Misto de Frutas, Amêndoa Torrada, Topping de Chocolate, Topping de Caramelo, Chantilly e Açúcar em Pó",
-    "ingredientes_en": "Chocolate Waffle, 1 Scoop of Chocolate or Caramel Ice Cream, Mix of Fruits, Toasted  Almond , Chocolate Topping, Caramel Topping, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "ingredientes": "Waffle de Chocolate, 1 Bola de Gelado de Chocolate, 1 Bola de Gelado de Caramelo, Misto de Frutas, Amêndoa Torrada, Topping de Chocolate, Topping de Caramelo, Chantilly e Açúcar em Pó",
+    "ingredientes_en": "Chocolate Waffle, 1 Scoop of Chocolate Ice Cream, 1 Scoop of Caramel Ice Cream, Mix of Fruits, Toasted  Almond , Chocolate Topping, Caramel Topping, Whipped Cream and Powder Sugar",
+    "preco": 9.9
   },
   {
-    "id": 201,
+    "id": 204,
     "nome": "Waffle Tower",
     "nome_en": "  Waffle Tower",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Torre de Waffles, 1 Bola de Gelado à Escolha, Amêndoa Torrada, Topping à Escolha ou Nutella, Chantilly e Açúcar em Pó",
     "ingredientes_en": " Waffle Tower, 1 Scoop of Choice, Toasted Almond, Topping of Choice or Nutella, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 202,
+    "id": 205,
     "nome": "Construa a Sua Waffle",
     "nome_en": "Make Your Own Waffle",
     "categoria": "Waffles",
     "categoria_en": "Waffles",
     "ingredientes": "Waffle, 1 Chocolate à Escolha,1 Fruta à Escolha,1Topping à Escolha 1 Cobertura à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Waffle, 1 Chocolate of Choice, 1 Fruit of Choice, 1 Liquid Topping of Choice, 1 Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 203,
+    "id": 206,
     "nome": "Bubble Rainbow",
     "nome_en": "Rainbow Bubble Waffle",
     "categoria": "Bubble Waffles",
     "categoria_en": "Bubble Waffles",
     "ingredientes": "Bubble Waffle, 1 Bola de Gelado de Baunilha ou de Morango, Cobertura Colorida, Topping de Morango, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Bubble Waffle, 1 Scoop of Vanilla or Strawberry Ice Cream, Rainbow Topping, Strawberry Topping, Whipped Cream and Powder Sugar",
-    "preco": "7,90"
+    "preco": 7.9
   },
   {
-    "id": 204,
+    "id": 207,
     "nome": "Bubble Oreo",
     "nome_en": "Oreo Bubble Waffle",
     "categoria": "Bubble Waffles",
     "categoria_en": "Bubble Waffles",
     "ingredientes": "Bubble Waffle, 1 Bola de Gelado de Cookies and Cream, Mini Bolachas Oreo, Topping de Chocolate, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Bubble Waffle, 1 Scoop of Cookies and Cream Ice Cream, Mini Oreo Cookies, Chocolate Topping,  Whipped Cream and Pwder Sugar",
-    "preco": "8,90"
+    "preco": 8.9
   },
   {
-    "id": 205,
+    "id": 208,
     "nome": "Bubble Kinder Bueno",
     "nome_en": "Kinder Bueno Bubble Waffle",
     "categoria": "Bubble Waffles",
     "categoria_en": "Bubble Waffles",
     "ingredientes": "Bubble Waffle, 1 Bola de Gelado de Avelã e Chocolate, Kinder Bueno, Nutella, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Bubble Waffle, 1 Scoop of Hazelnut and Chocolate Ice Cream, Kinder Bueno, Nutella, Whipped Cream and Powder Sugar",
-    "preco": "8,90"
+    "preco": 8.9
   },
   {
-    "id": 206,
+    "id": 209,
     "nome": "Bubble de Frutas e Topping",
     "nome_en": "Fruits and Topping Bubble Waffle",
     "categoria": "Bubble Waffles",
     "categoria_en": "Bubble Waffles",
     "ingredientes": "Bubble Waffle, 1 Bola de Gelado de Morango ou Baunilha, Misto de Fruta, Topping de Chocolate, Topping de Morango, Amêndoa Torrada, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Bubble Waffle, 1 Scoop of Vanilla or Strawberry Ice Cream , Mix of Fruits, Chocolate Topping, Strawberry Topping, Toasted Almond, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 207,
+    "id": 210,
     "nome": "Bubble Acepipe",
     "nome_en": "Acepipe Bubble Waffle",
     "categoria": "Bubble Waffles",
     "categoria_en": "Bubble Waffles",
     "ingredientes": "Bubble Waffle de Chocolate , 1 Bola de Gelado de Chocolate ou de Caramelo, Misto de Frutas, Nutella, Amêndoa Torrada, Topping de Chocolate, Topping de Caramelo, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Chocolate Bubble Waffle, 1 Scoop of Chocolate or Caramel  Ice Cream , Mix of Fruits, Chocolate Topping,  Caramel Topping, Toasted Almond, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 208,
+    "id": 211,
     "nome": "Contrua a Sua Bubble Waffle",
     "nome_en": "Make Your Own Bubble Waffle",
     "categoria": "Bubble Waffles",
     "categoria_en": "Bubble Waffles",
     "ingredientes": "Bubble Waffle, 1 Bolas de Gelado à Escolha, 1 Chocolate à Escolha, 1 Fruta à Escolha, 1 Topping, 1 Cobertura à Escolha, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Bubble Waffle, 1 Scoop of Ice Cream of Choice, 1 Chocolate of Choice, 1 Fruit of Choice, 1 Liquid Topping of Choice, 1 Topping of Choice, Whipped Cream and Powder Sugar",
-    "preco": "9,90"
+    "preco": 9.9
   },
   {
-    "id": 209,
+    "id": 212,
     "nome": "Chantilly",
     "nome_en": "Whipped Cream",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "0,50"
+    "preco": 1
   },
   {
-    "id": 210,
-    "nome": "Topping Líquido",
-    "nome_en": "Liquid Topping",
+    "id": 213,
+    "nome": "Toppings Líquidos",
+    "nome_en": "Liquid Toppings",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,00"
+    "preco": 1
   },
   {
-    "id": 211,
+    "id": 214,
     "nome": "Coberturas",
     "nome_en": "Toppings",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,00"
+    "preco": 1
   },
   {
-    "id": 212,
+    "id": 215,
     "nome": "Compota",
     "nome_en": "Jam",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,00"
+    "preco": 1
   },
   {
-    "id": 213,
+    "id": 216,
     "nome": "Cone",
     "nome_en": "Cone",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "0,50"
+    "preco": 0.5
   },
   {
-    "id": 214,
+    "id": 217,
     "nome": "Copo (de Gelado)",
     "nome_en": "Paper Cup",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "0,50"
+    "preco": 0.5
   },
   {
-    "id": 215,
+    "id": 218,
     "nome": "Dose de Pão",
-    "nome_en": " Bread",
+    "nome_en": "Bread Portion",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,50"
+    "preco": 1.5
   },
   {
-    "id": 216,
+    "id": 219,
     "nome": "Fruta",
     "nome_en": "Fruit",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,00"
+    "preco": 2
   },
   {
-    "id": 217,
+    "id": 220,
     "nome": "Utensílios Take Away",
     "nome_en": "Take Away Utensils",
     "categoria": "Extras",
     "categoria_en": "Extras",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "1,50"
+    "preco": 1.5
   }
 ]
