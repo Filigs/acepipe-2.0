@@ -64,6 +64,10 @@ function CollapsibleCategoryCard({
       pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
       en: "Adding a scoop of ice cream adds the value of 2€",
     },
+    Cafetaria: {
+      pt: "Ao substituir o leite por leite vegetal acresce o valor de 1€",
+      en: "Replacing milk for vegetable milk adds the value of 1€",
+    },
   };
   const highlightTextsEN = {
     "Toasts and Bread": {
@@ -94,15 +98,17 @@ function CollapsibleCategoryCard({
       pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
       en: "Adding a scoop of ice cream adds the value of 2€",
     },
+    Cafeteria: {
+      pt: "Ao substituir o leite por leite vegetal acresce o valor de 1€",
+      en: "Replacing milk for vegetable milk adds the value of 1€",
+    },
   };
 
   const getCategoryHighlightText = (title) => {
-    const index =
+    const enCategory =
       language === "pt"
-        ? categoryOrderPT.indexOf(title)
-        : categoryOrderEN.indexOf(title);
-    const ptCategory = categoryOrderPT[index];
-    const enCategory = categoryOrderEN[index];
+        ? categoryOrderPT.find((category) => category === title)
+        : categoryOrderEN.find((category) => category === title);
 
     const combinedHighlightTexts = { ...highlightTexts, ...highlightTextsEN };
 
@@ -113,8 +119,7 @@ function CollapsibleCategoryCard({
       );
     } else {
       return (
-        combinedHighlightTexts[ptCategory] &&
-        combinedHighlightTexts[ptCategory][language]
+        combinedHighlightTexts[title] && combinedHighlightTexts[title][language]
       );
     }
   };
@@ -129,8 +134,6 @@ function CollapsibleCategoryCard({
     closed: { opacity: 0, height: 0, scaleY: 0.8 },
   };
 
-  const index = categoryOrderEN.indexOf(title);
-  const ptCategory = categoryOrderPT[index];
   return (
     <div className={styles.categoryCard}>
       {!isOpen && (

@@ -56,7 +56,7 @@
 }
 
 .productCardIngredientsContainer {
-  @apply flex items-center;
+  @apply flex items-center cursor-pointer;
 }
 
 .productCardPrice {
@@ -171,6 +171,10 @@
 
 .ingredientsIcon {
   @apply text-primary cursor-pointer;
+}
+
+.smallText {
+  @apply text-xs;
 }
 
 /* Responsive */

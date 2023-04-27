@@ -11,7 +11,7 @@ export default function Custom404() {
           </p>
           <p className="mb-4 text-lg font-light text-slate-500 dark:text-slate-400">
             Sorry, we cant find that page. Youll find lots to explore on the
-            home page.{" "}
+            home page.
           </p>
           <a
             href="#"
