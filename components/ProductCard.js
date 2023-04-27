@@ -8,6 +8,27 @@ import { useLanguage } from "@/utils/LanguageContext";
 const ProductCard = ({ name, ingredients, price }) => {
   const [isTooltipOpen, setIsTooltipOpen] = useState(false);
   const { language } = useLanguage();
+  const wrapBracesWithSmallText = (text) => {
+    const braceRegex = /\(.*?\)/g;
+    return text.split(braceRegex).reduce((acc, part, index) => {
+      const braceMatch = text.match(braceRegex);
+      if (index < text.split(braceRegex).length - 1) {
+        return (
+          <>
+            {acc}
+            {part}
+            <span className={styles.smallText}>{braceMatch[index]}</span>
+          </>
+        );
+      }
+      return (
+        <>
+          {acc}
+          {part}
+        </>
+      );
+    }, "");
+  };
 
   let capitalizedName = name.charAt(0).toUpperCase() + name.slice(1);
   const toggleTooltip = () => {
@@ -17,13 +38,16 @@ const ProductCard = ({ name, ingredients, price }) => {
   return (
     <div className={`${styles.productCard}`}>
       <h3 className={`${styles.productCardName} text-primary`}>
-        {capitalizedName}
+        {wrapBracesWithSmallText(capitalizedName)}
       </h3>
+
       {ingredients && (
-        <div className={styles.productCardIngredientsContainer}>
+        <div
+          className={styles.productCardIngredientsContainer}
+          onClick={toggleTooltip}
+        >
           <HiOutlineInformationCircle
             className={`${styles.productCardIngredientsIcon} h-5 w-5`}
-            onClick={toggleTooltip}
           />
           {isTooltipOpen ? (
             ""
@@ -39,7 +63,6 @@ const ProductCard = ({ name, ingredients, price }) => {
               exit={{ opacity: 0, scale: 0.5 }}
               transition={{ duration: 0.2 }}
               className={`${styles.productCardIngredientsTooltip} ml-2`}
-              onClick={toggleTooltip}
             >
               {ingredients}
             </motion.div>
