@@ -411,16 +411,6 @@
   },
   {
     "id": 42,
-    "nome": "Croissant com Nutella",
-    "nome_en": "Croissant with Nutella",
-    "categoria": "Pastelaria",
-    "categoria_en": "Pastry",
-    "ingredientes": "",
-    "ingredientes_en": "",
-    "preco": "3,20"
-  },
-  {
-    "id": 43,
     "nome": "Croissant Misto",
     "nome_en": "Ham and Cheese Croissant",
     "categoria": "Pastelaria",
@@ -428,6 +418,16 @@
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "3,00"
+  },
+  {
+    "id": 43,
+    "nome": "Croissant com Nutella",
+    "nome_en": "Croissant with Nutella",
+    "categoria": "Pastelaria",
+    "categoria_en": "Pastry",
+    "ingredientes": "",
+    "ingredientes_en": "",
+    "preco": "3,20"
   },
   {
     "id": 44,
@@ -607,7 +607,7 @@
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": "6.50"
   },
   {
     "id": 62,
@@ -617,7 +617,7 @@
     "categoria_en": "Baguettes",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "5,90"
+    "preco": "6.50"
   },
   {
     "id": 63,
@@ -625,8 +625,8 @@
     "nome_en": "Tuna Salad",
     "categoria": "Saladas",
     "categoria_en": "Salads",
-    "ingredientes": "Alface, Tomate, Cebola, Pepino e Atum",
-    "ingredientes_en": "Lettuce, Tomato, Cucumber and Tuna",
+    "ingredientes": "Alface, Tomate, Cebola, Pepino, Ovo e Atum",
+    "ingredientes_en": "Lettuce, Tomato, Cucumber, Egg and Tuna",
     "preco": "9,90"
   },
   {
@@ -701,7 +701,7 @@
   },
   {
     "id": 71,
-    "nome": "Black Angus Burguer ",
+    "nome": "Black Angus Burguer",
     "nome_en": "Black Angus Burger   ",
     "categoria": "Hambúrgueres",
     "categoria_en": "Burgers",
@@ -941,8 +941,8 @@
   },
   {
     "id": 95,
-    "nome": "Shandy (0.20CL)",
-    "nome_en": "Shandy (0.20CL)",
+    "nome": "Shandy (20CL)",
+    "nome_en": "Shandy (20CL)",
     "categoria": "Bebidas",
     "categoria_en": "Drinks",
     "ingredientes": "",
@@ -1057,7 +1057,7 @@
     "categoria_en": "Natural Fruit Juices",
     "ingredientes": "",
     "ingredientes_en": "",
-    "preco": "2,90"
+    "preco": "3,20"
   },
   {
     "id": 107,
@@ -1817,7 +1817,7 @@
     "categoria_en": "Crepes",
     "ingredientes": "Crepe de Chocolate, Misto de Frutas, Amêndoa Torrada ,1 Bola de Gelado de Chocolate, 1 Bola de Gelado de Caramelo,  Topping de Chocolate, Topping de Caramelo, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Chocolate Crepe, Mix of Fruits, Toasted Almond, 1 Scoop of Chocolate Ice Cream, 1 Scoop of Caramel Ice Cream, Chocolate Topping, Caramel Topping, Whipped Cream and Powder Sugar",
-    "preco": "9,50"
+    "preco": "9,90"
   },
   {
     "id": 183,
@@ -1917,7 +1917,7 @@
     "categoria_en": "Pancakes",
     "ingredientes": "Panquecas de Chocolate, Misto de Frutas, Amêndoa Torrada, 1 Bola de Gelado de Chocolate, 1 Bola de Gelado de Caramelo, Topping de Chocolate, Topping de Caramelo, Chantilly e Açúcar em Pó",
     "ingredientes_en": "Chocolate Pancakes, Mix of Fruits, Toasted Almond, 1 Scoop of Chocolate Ice Cream, 1 Scoop of Caramel Ice Cream, Chocolate Topping, Caramel Topping, Whipped Cream and Sugar Powder",
-    "preco": "7,90"
+    "preco": "9,90"
   },
   {
     "id": 193,
