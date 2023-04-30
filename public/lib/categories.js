@@ -42,6 +42,7 @@ export const categoryOrderEN = [
   "Alcoholic Beverages",
   "Cocktails",
   "Slushies",
+  "Milkshakes",
   "Acepipe Special",
   "Ice Cream Bowls",
   "Crepes",
