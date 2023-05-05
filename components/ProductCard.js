@@ -69,7 +69,7 @@ const ProductCard = ({ name, ingredients, price }) => {
           )}
         </div>
       )}
-      <div className={`${styles.productCardPrice}`}>{price}€</div>
+      <div className={`${styles.productCardPrice}`}>{`${price}€`}</div>
     </div>
   );
 };
