@@ -33,36 +33,36 @@ function CollapsibleCategoryCard({
   // acompanhamentos
   const highlightTexts = {
     "Tostas e Torradas": {
-      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-      en: "Adding fries adds the value of 2€",
+      pt: "Ao adicionar batatas fritas acresce o valor de 2,50€",
+      en: "Adding fries adds the value of 2,50€",
     },
     Baguetes: {
-      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-      en: "Adding fries adds the value of 2€",
+      pt: "Ao adicionar batatas fritas acresce o valor de 2,50€",
+      en: "Adding fries adds the value of 2,50€",
     },
     "Bacon Rolls": {
-      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-      en: "Adding fries adds the value of 2€",
+      pt: "Ao adicionar batatas fritas acresce o valor de 2,50€",
+      en: "Adding fries adds the value of 2,50€",
     },
     Hambúrgueres: {
       pt: "Todos os hambúrgueres incluem batatas fritas",
       en: "All burgers include fries",
     },
     Crepes: {
-      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-      en: "Adding a scoop of ice cream adds the value of 2€",
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
+      en: "Adding a scoop of ice cream adds the value of 2,50€",
     },
     Panquecas: {
-      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-      en: "Adding a scoop of ice cream adds the value of 2€",
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
+      en: "Adding a scoop of ice cream adds the value of 2,50€",
     },
     "Bubble Waffles": {
       pt: "",
       en: "",
     },
     Waffles: {
-      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-      en: "Adding a scoop of ice cream adds the value of 2€",
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
+      en: "Adding a scoop of ice cream adds the value of 2,50€",
     },
     Cafetaria: {
       pt: "Ao substituir o leite por leite vegetal acresce o valor de 1€",
@@ -71,32 +71,32 @@ function CollapsibleCategoryCard({
   };
   const highlightTextsEN = {
     "Toasts and Bread": {
-      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-      en: "Adding fries adds the value of 2€",
+      pt: "Ao adicionar batatas fritas acresce o valor de 2,50€",
+      en: "Adding fries adds the value of 2,50€",
     },
     Baguettes: {
-      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-      en: "Adding fries adds the value of 2€",
+      pt: "Ao adicionar batatas fritas acresce o valor de 2,50€",
+      en: "Adding fries adds the value of 2,50€",
     },
     "Bacon Rolls": {
-      pt: "Ao adicionar batatas fritas acresce o valor de 2€",
-      en: "Adding fries adds the value of 2€",
+      pt: "Ao adicionar batatas fritas acresce o valor de 2,50€",
+      en: "Adding fries adds the value of 2,50€",
     },
     Burgers: {
       pt: "Todos os hambúrgueres incluem batatas fritas",
       en: "All burgers include fries",
     },
     Crepes: {
-      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-      en: "Adding a scoop of ice cream adds the value of 2€",
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
+      en: "Adding a scoop of ice cream adds the value of 2,50€",
     },
     Pancakes: {
-      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-      en: "Adding a scoop of ice cream adds the value of 2€",
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
+      en: "Adding a scoop of ice cream adds the value of 2,50€",
     },
     Waffles: {
-      pt: "Ao adicionar uma bola de gelado acresce o valor de 2€",
-      en: "Adding a scoop of ice cream adds the value of 2€",
+      pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
+      en: "Adding a scoop of ice cream adds the value of 2,50€",
     },
     Cafeteria: {
       pt: "Ao substituir o leite por leite vegetal acresce o valor de 1€",
