@@ -384,7 +384,7 @@
     "nome": "Croissant com Manteiga",
     "nome_en": "Croissant with Butter",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "2,20"
@@ -394,7 +394,7 @@
     "nome": "Croissant com Queijo",
     "nome_en": "Croissant with Cheese",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "2,80"
@@ -404,7 +404,7 @@
     "nome": "Croissant com Fiambre",
     "nome_en": "Croissant with Ham",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "2,80"
@@ -414,7 +414,7 @@
     "nome": "Croissant Misto",
     "nome_en": "Ham and Cheese Croissant",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "3,00"
@@ -424,7 +424,7 @@
     "nome": "Croissant com Nutella",
     "nome_en": "Croissant with Nutella",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "3,20"
@@ -434,7 +434,7 @@
     "nome": "Croissant com Doce",
     "nome_en": "Croissant with Jam",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "3,20"
@@ -444,7 +444,7 @@
     "nome": "Croissant com Doce de Ovo",
     "nome_en": "Croissant with Egg Spread",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "3,50"
@@ -454,7 +454,7 @@
     "nome": "Croissant com Nutella e Morangos",
     "nome_en": "Croissant with Nutella and Strawberries",
     "categoria": "Pastelaria",
-    "categoria_en": "Croissants",
+    "categoria_en": "Pastry",
     "ingredientes": "",
     "ingredientes_en": "",
     "preco": "3,50"
