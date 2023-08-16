@@ -14,7 +14,29 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("/lib/data.json");
+      let fileToFetch = "/lib/data.json"; // default file
+
+      // Get current date and time in GMT+0
+      const currentDate = new Date(
+        new Date().toLocaleString("en-US", { timeZone: "Europe/Lisbon" })
+      );
+      if (
+        // currentDate.getUTCDate() === 20 &&
+        // currentDate.getUTCMonth() === 7 && // August is month 7 (0-indexed)
+        // currentDate.getUTCFullYear() === 2023 &&
+        // currentDate.getUTCHours() >= 16 &&
+        // currentDate.getUTCHours() < 18
+
+        currentDate.getUTCDate() === 16 &&
+        currentDate.getUTCMonth() === 7 && // August is month 7 (0-indexed)
+        currentDate.getUTCFullYear() === 2023 &&
+        currentDate.getUTCHours() >= 22 &&
+        currentDate.getUTCHours() < 23
+      ) {
+        fileToFetch = "/lib/data_temp.json"; // replace with the path to your alternate JSON file
+      }
+
+      const response = await fetch(fileToFetch);
       const jsonData = await response.json();
       setData(jsonData);
     }
