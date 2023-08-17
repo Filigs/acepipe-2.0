@@ -14,30 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchData() {
-      let fileToFetch = "/lib/data.json"; // default file
-
-      // Get current date and time in GMT+0
-      const currentDate = new Date(
-        new Date().toLocaleString("en-US", { timeZone: "Europe/Lisbon" })
-      );
-      if (
-        // currentDate.getUTCDate() === 20 &&
-        // currentDate.getUTCMonth() === 7 && // August is month 7 (0-indexed)
-        // currentDate.getUTCFullYear() === 2023 &&
-        // currentDate.getUTCHours() >= 16 &&
-        // currentDate.getUTCHours() < 18
-
-        currentDate.getUTCDate() === 17 &&
-        currentDate.getUTCMonth() === 7 && // August is month 7 (0-indexed)
-        currentDate.getUTCFullYear() === 2023 &&
-        currentDate.getUTCHours() >= 23 &&
-        currentDate.getUTCHours() < 24
-      ) {
-        fileToFetch = "/lib/data_temp.json"; // replace with the path to your alternate JSON file
-      }
-      console.log("Fetching data from:", fileToFetch);
-
-      const response = await fetch(fileToFetch);
+      const response = await fetch("/lib/data.json");
       const jsonData = await response.json();
       setData(jsonData);
     }
@@ -45,8 +22,28 @@ export default function Home() {
     fetchData();
   }, []);
 
-  const orderedCategories =
-    language === "pt" ? categoryOrderPT : categoryOrderEN;
+  // Check the current date and time in the "Europe/Lisbon" timezone
+  const currentDate = new Date(
+    new Date().toLocaleString("en-US", { timeZone: "Europe/Lisbon" })
+  );
+  const isSpecialTime =
+    currentDate.getDate() === 20 &&
+    currentDate.getMonth() === 7 &&
+    currentDate.getFullYear() === 2023 &&
+    currentDate.getHours() >= 23 &&
+    currentDate.getHours() < 24;
+
+  let orderedCategories = language === "pt" ? categoryOrderPT : categoryOrderEN;
+
+  // Conditionally exclude categories
+  if (isSpecialTime) {
+    orderedCategories = orderedCategories.filter(
+      (cat) =>
+        cat !== "Pequeno Almoço Inglês" &&
+        cat !== "English Breakfast" &&
+        cat !== "Tapas"
+    );
+  }
 
   const sortProducts = (products) => {
     const specialProductId = 198;
@@ -69,7 +66,11 @@ export default function Home() {
                 (language === "pt" ? item.categoria : item.categoria_en) ===
                 catText
             );
-
+            if (isSpecialTime) {
+              productsInCategory = productsInCategory.filter(
+                (item) => !item.name.startsWith("Croissant")
+              );
+            }
             const sortedProductsInCategory = sortProducts(productsInCategory);
 
             return (
