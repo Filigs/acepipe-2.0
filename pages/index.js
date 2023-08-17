@@ -35,6 +35,7 @@ export default function Home() {
       ) {
         fileToFetch = "/lib/data_temp.json"; // replace with the path to your alternate JSON file
       }
+      console.log("Fetching data from:", fileToFetch);
 
       const response = await fetch(fileToFetch);
       const jsonData = await response.json();
