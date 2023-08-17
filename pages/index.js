@@ -22,8 +22,29 @@ export default function Home() {
     fetchData();
   }, []);
 
-  const orderedCategories =
-    language === "pt" ? categoryOrderPT : categoryOrderEN;
+  // Check the current date and time in the "Europe/Lisbon" timezone
+  const currentDate = new Date(
+    new Date().toLocaleString("en-US", { timeZone: "Europe/Lisbon" })
+  );
+
+  const isSpecialTime =
+    currentDate.getDate() === 20 &&
+    currentDate.getMonth() === 7 &&
+    currentDate.getFullYear() === 2023 &&
+    currentDate.getHours() >= 16 &&
+    currentDate.getHours() < 18;
+
+  let orderedCategories = language === "pt" ? categoryOrderPT : categoryOrderEN;
+
+  // Conditionally exclude categories
+  if (isSpecialTime) {
+    orderedCategories = orderedCategories.filter(
+      (cat) =>
+        cat !== "Pequeno Almoço Inglês" &&
+        cat !== "English Breakfast" &&
+        cat !== "Tapas"
+    );
+  }
 
   const sortProducts = (products) => {
     const specialProductId = 198;
@@ -41,11 +62,24 @@ export default function Home() {
         <LanguageSwitcher />
         <div className={styles.cards}>
           {orderedCategories.map((catText) => {
-            const productsInCategory = data.filter(
+            let productsInCategory = data.filter(
               (item) =>
                 (language === "pt" ? item.categoria : item.categoria_en) ===
                 catText
             );
+
+            // Conditionally exclude items starting with "Croissant" for the "Pastelaria"/"Pastry" category
+            if (
+              isSpecialTime &&
+              (catText === "Pastelaria" || catText === "Pastry")
+            ) {
+              productsInCategory = productsInCategory.filter(
+                (item) =>
+                  !(language === "pt" ? item.nome : item.nome_en).startsWith(
+                    "Croissant"
+                  )
+              );
+            }
 
             const sortedProductsInCategory = sortProducts(productsInCategory);
 
@@ -54,8 +88,8 @@ export default function Home() {
                 key={catText}
                 title={catText}
                 products={sortedProductsInCategory}
-                expandedCard={expandedCard} // Add this prop
-                setExpandedCard={setExpandedCard} // Add this prop
+                expandedCard={expandedCard}
+                setExpandedCard={setExpandedCard}
               />
             );
           })}
