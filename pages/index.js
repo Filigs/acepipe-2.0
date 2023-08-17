@@ -27,11 +27,11 @@ export default function Home() {
         // currentDate.getUTCHours() >= 16 &&
         // currentDate.getUTCHours() < 18
 
-        currentDate.getUTCDate() === 16 &&
+        currentDate.getUTCDate() === 17 &&
         currentDate.getUTCMonth() === 7 && // August is month 7 (0-indexed)
         currentDate.getUTCFullYear() === 2023 &&
-        currentDate.getUTCHours() >= 22 &&
-        currentDate.getUTCHours() < 23
+        currentDate.getUTCHours() >= 23 &&
+        currentDate.getUTCHours() < 24
       ) {
         fileToFetch = "/lib/data_temp.json"; // replace with the path to your alternate JSON file
       }
