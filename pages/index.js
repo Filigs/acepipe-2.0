@@ -22,29 +22,7 @@ export default function Home() {
     fetchData();
   }, []);
 
-  // Check the current date and time in the "Europe/Lisbon" timezone
-  const currentDate = new Date(
-    new Date().toLocaleString("en-US", { timeZone: "Europe/Lisbon" })
-  );
-
-  const isSpecialTime =
-    currentDate.getDate() === 20 &&
-    currentDate.getMonth() === 7 &&
-    currentDate.getFullYear() === 2023 &&
-    currentDate.getHours() >= 16 &&
-    currentDate.getHours() < 18;
-
   let orderedCategories = language === "pt" ? categoryOrderPT : categoryOrderEN;
-
-  // Conditionally exclude categories
-  if (isSpecialTime) {
-    orderedCategories = orderedCategories.filter(
-      (cat) =>
-        cat !== "Pequeno Almoço Inglês" &&
-        cat !== "English Breakfast" &&
-        cat !== "Tapas"
-    );
-  }
 
   const sortProducts = (products) => {
     const specialProductId = 198;
@@ -69,10 +47,7 @@ export default function Home() {
             );
 
             // Conditionally exclude items starting with "Croissant" for the "Pastelaria"/"Pastry" category
-            if (
-              isSpecialTime &&
-              (catText === "Pastelaria" || catText === "Pastry")
-            ) {
+            if (catText === "Pastelaria" || catText === "Pastry") {
               productsInCategory = productsInCategory.filter(
                 (item) =>
                   !(language === "pt" ? item.nome : item.nome_en).startsWith(
