@@ -21,7 +21,7 @@ export const categoryOrderPT = [
   "Crepes",
   "Panquecas",
   "Waffles",
-  "Bubble Waffles",
+  // "Bubble Waffles",
   "Extras",
 ];
 
@@ -48,6 +48,6 @@ export const categoryOrderEN = [
   "Crepes",
   "Pancakes",
   "Waffles",
-  "Bubble Waffles",
+  // "Bubble Waffles",
   "Extras",
 ];

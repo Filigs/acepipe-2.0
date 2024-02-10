@@ -56,10 +56,10 @@ function CollapsibleCategoryCard({
       pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
       en: "Adding a scoop of ice cream adds the value of 2,50€",
     },
-    "Bubble Waffles": {
-      pt: "",
-      en: "",
-    },
+    // "Bubble Waffles": {
+    //   pt: "",
+    //   en: "",
+    // },
     Waffles: {
       pt: "Ao adicionar uma bola de gelado acresce o valor de 2,50€",
       en: "Adding a scoop of ice cream adds the value of 2,50€",
